@@ -1,0 +1,56 @@
+project:
+  type: book
+
+book:
+  chapters:
+    - index.qmd
+    - chapters/chapter1.qmd
+    - chapters/chapter2.qmd
+    - chapters/chapter3.qmd
+    - chapters/references.qmd
+  appendices: 
+    - appendices/appendix-a.qmd
+
+bibliography: files/references.bib
+csl: apa.csl
+
+format:
+  pdf:
+    documentclass: report
+    linestretch: 2
+    template-partials:
+      - "before-body.tex"
+      - "_titlepage.tex" 
+    include-in-header: 
+      - "in-header.tex"
+    toc: false
+    toc-title: Table of contents
+
+crossref:
+  fig-title: Figure # figure name in the caption
+  fig-prefix: Figure # figure name in the text
+  tbl-title: Table # table name in the caption
+  tbl-prefix: Table # table name in the text
+  lst-title: Code # code name in the caption
+  lst-prefix: Code # code name in the text
+  eq-title: Equation # equation name in the caption
+  eq-prefix: Equation # equation name in the text
+  
+filters:
+  - first-line-indent
+
+department: Dipartimento di Psicologia dello Sviluppo e della Socializzazione
+degree: Corso di laurea magistrale in Psicologia Clinico-Dinamica
+thesis: Tesi di laurea magistrale
+title-ita: Pianificazione della numerosità campionaria basata sul  giudizio degli esperti e sintesi della letteratura. Una proposta per stimare dimensioni dell’effetto clinicamente rilevanti.
+title-eng: Sample size planning informed by experts and literature: toward clinically meaningful effect sizes.
+supervisor-prefix: Relatore
+supervisor-name: Prof. Gianmarco Altoè
+cosupervisor-prefix: Correlatori
+cosupervisor-name: Perugini Ambra, Sità Laura
+student-prefix: Laureando
+student-name: Emanuele Bollini
+matricola-prefix: Matricola
+matricola: 2119954
+academic-year-prefix: Anno Accademico
+academic-year: 2024/2025

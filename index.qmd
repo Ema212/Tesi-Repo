@@ -1,0 +1,12 @@
+# Acknowledgements {.unlisted .unnumbered}
+
+Some really fancy acknowledgements here
+
+```{=latex}
+\clearpage
+{
+\hypersetup{linkcolor=blue}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+```
