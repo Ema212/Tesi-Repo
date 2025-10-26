@@ -39,18 +39,18 @@ crossref:
 filters:
   - first-line-indent
 
-department: Dipartimento di Psicologia dello Sviluppo e della Socializzazione
-degree: Corso di laurea magistrale in Psicologia Clinico-Dinamica
-thesis: Tesi di laurea magistrale
-title-ita: Pianificazione della numerosità campionaria basata sul  giudizio degli esperti e sintesi della letteratura. Una proposta per stimare dimensioni dell’effetto clinicamente rilevanti.
-title-eng: Sample size planning informed by experts and literature: toward clinically meaningful effect sizes.
-supervisor-prefix: Relatore
-supervisor-name: Prof. Gianmarco Altoè
-cosupervisor-prefix: Correlatori
-cosupervisor-name: Perugini Ambra, Sità Laura
-student-prefix: Laureando
-student-name: Emanuele Bollini
-matricola-prefix: Matricola
-matricola: 2119954
-academic-year-prefix: Anno Accademico
-academic-year: 2024/2025
+department: "Dipartimento di Psicologia dello Sviluppo e della Socializzazione"
+degree: "Corso di laurea magistrale in Psicologia Clinico-Dinamica"
+thesis: "Tesi di laurea magistrale"
+title-ita: "Pianificazione della numerosità campionaria basata sul giudizio degli esperti e sintesi della letteratura. Una proposta per stimare dimensioni dell’effetto clinicamente rilevanti."
+title-eng: "Sample size planning informed by experts and literature: toward clinically meaningful effect sizes."
+supervisor-prefix: "Relatore"
+supervisor-name: "Prof. Gianmarco Altoè"
+cosupervisor-prefix: "Correlatori"
+cosupervisor-name: "Perugini Ambra, Sità Laura"
+student-prefix: "Laureando"
+student-name: "Emanuele Bollini"
+matricola-prefix: "Matricola"
+matricola: "2119954"
+academic-year-prefix: "Anno Accademico"
+academic-year: "2024/2025"

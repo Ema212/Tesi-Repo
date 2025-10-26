@@ -1,47 +1,46 @@
-# Expert elicitation procedure
+# Tailored elicitation procedure
 
 In this chapter we will outline the methodology employed to define the smallest effect size of interest (SESOI) for the Kessler-10 (K-10) scale through a tailored elicitation process. We will address the issues of eliciting a SESOI, then we will give a brief introduction of the K-10. We will then explain the implemented procedure, along with its limitations.
-
-
 
 ## The Kessler-10
 
 The Kessler-10 (K-10) is a brief, 10-item self-report questionnaire designed to measure non-specific psychological distress, with a focus on symptoms of depression and anxiety. Respondents rate how frequently they experienced each symptom in the last 30 days on a 5-point scale (ranging from 1 = "None of the time" to 5 = "All of the time"). The total score ranges from 10 to 50, where higher scores indicate greater levels of psychological distress. Its brevity and robust psychometric properties make it a widely used tool in both research and primary care settings for screening and monitoring.
 
-## The procedure 
+## The elicitation procedure
 
-**Developing Instrument** The core of the elicitation was a direct email survey. The instrument was centered around a detailed clinical vignette depicting a university student with emerging depressive symptoms. The vignette was designed to illustrate a scenario where, after an initial treatment, the patient exhibits a minimal, yet meaningful, functional improvement. Following the vignette, experts were asked the pivotal question: "What difference in the total K-10 score would you expect between the pre- and post-treatment assessments in this scenario?" This approach was chosen to ground the abstract concept of the MIC in a concrete clinical judgment.
+Time and resource constraints prevented us from conducting a manualized elicitation, therefore we conducted a survey via e-mail, with a one-shot question to answer. The choice of this non-manualized methodology is considered appropriate within the context of a master's thesis, intended for illustrative purposes only, and serves as a substitute for a proper elicitation process.
 
-Fasi rispettate
+We will now outline how the survey was constructed, how experts were recruited and data collected.
 
-2) Estimate (Stimare): Abbiamo chiesto agli esperti di fornire le loro risposte in modo indipendente e privato, evitando così dinamiche di gruppo come il "groupthink" che potrebbero distorcere i giudizi. (abbiamo tenuto il loro tempo di una settimana)
-3) Aggregate (Aggregare): Le risposte pervenute sono state poi aggregate matematicamente (ad esempio, calcolando una media o una mediana) per derivare una stima di gruppo, principio cardine della fase finale del protocollo IDEA.
+### Survey structure
 
-!!!!!  Dal punto di vista operativo, la natura non verificabile del costrutto preclude l’applicazione di tecniche come il “performance weighting” (come descritto nel capitolo precedente), che richiedono domande a risposta nota per calibrare il peso degli esperti. Ciò ha reso inevitabile il ricorso a un’aggregazione a pesi uguali, un compromesso metodologico ampiamente accettato in contesti simili, sebbene comporti il rischio di diluire il contributo degli esperti più accurati.
+The survey was centered around a detailed clinical vignette depicting a university student with emerging depressive symptoms. The vignette was designed to illustrate a scenario where, after an initial treatment, the patient exhibits a minimal, yet meaningful, functional improvement. Neither lenght of the treatment nor type of treatment was detailed. This choice may be discussed, but it's our opinion that  given the very definition of SESOI (the smallest effect size of interest) we are not interested in the time needed to obtained a relevant improvement, nor we are interested in how the improvement is obtained (whether it may be due to a certain treatment, or even spontaneous). Conversly, we are only interested in the score difference, given the relevant change.
 
-Fase Discuss è stata saltata per time
-Investigate saltata per time, si è saltati direttamente alla estimate
+Following the vignette, the survey presents the pivotal question: "Given such a relevant change, what difference in the total K-10 score would you expect?" (the original and complete versione can be fount in the appendix)
 
-Selezione basata su convenienza
-Chiedere solo la loro stima migliore porta alla loro best guess, e non informa sulla stima dell'incertezza, con bias di overconfidenze
-Aggregazione porobabilmente sensible ai valori anomali
+The methodology was inspired by the final two stages of the IDEA protocol (notably, "estimate" and "aggregate"[@hemming2018practical]:
 
-"In sintesi, il nostro approccio si è ispirato al rigore metodologico del protocollo IDEA, adattandolo pragmaticamente ai nostri vincoli. Se da un lato questo ha permesso di raccogliere dati preziosi in tempi brevi, dall'altro riconosciamo i limiti intrinseci di questa semplificazione, in particolare la mancanza di una fase di discussione strutturata e di una formalizzata elicitazione dell'incertezza. Nonostante ciò, riteniamo che questo approccio rappresenti un primo passo valido e trasparente per incorporare il giudizio esperto nell'analisi, con la piena consapevolezza che una futura replicazione dello studio potrebbe beneficiare di una più completa applicazione del protocollo IDEA per aumentare la robustezza e l'affidabilità dei risultati.
+- Experts were asked to provide their best-guess estimates independently and privately within a one-week timeframe, avoiding group dynamics like groupthink. 
+- Following the core principle of the final IDEA phase, the collected responses were mathematically aggregated (using measures such as mean or median) to derive a group estimate.
 
-### Pilot  testing
+To refine the clarity and feasibility of the elicitation instrument, a pilot test was conducted. A sample of 6 master's students in clinical psychology was recruited. After being provided with a description of the K-10 scale, they were sent the survey. Their feedback and responses were used to identify ambiguities and ensure clarity.
 
-To refine the clarity and feasibility of the elicitation instrument, a pilot test was conducted. A sample of master's students in clinical psychology was recruited. After being provided with a description of the K-10 scale, they were presented with the clinical vignette and the elicitation question. Their feedback and responses were used to identify ambiguities and ensure the task was understandable to individuals with foundational clinical knowledge.
+Since no sensitive data were collected, ethical committee approval was deemed unnecessary. Participants were assured that their individual responses would be presented exclusively in aggregated form.
 
-### Expert recruitment
+### Expert recruitment and data collection
 
-The target population for the formal elicitation consisted of practicing clinical therapists. The primary eligibility criteria were direct clinical experience and self-reported familiarity with the use of the Kessler-10 scale in their practice. A purposive sampling strategy was employed to identify and recruit a panel of experts who met these criteria.
+The target population for the  elicitation consisted of practicing clinical therapists. The primary eligibility criteria were direct clinical experience and self-reported familiarity with the use of the Kessler-10 scale in their practice. Beyond these criteria, participants were selected based on a combination of convenience and availability.
 
-### Data collection
+Upon agreeing to participate in the data collection, participants were sent the questionnaire directly via email, without a preliminary explanatory phase.
 
-The finalized email, containing the study objective, the clinical vignette, and the key elicitation question, was sent to the recruited panel of experts. Their responses, which provided a numerical estimate of the MIC, were collected and compiled for analysis. This step successfully translated nuanced clinical expertise into a dataset of quantitative judgments regarding a meaningful score change on the K-10.
+The survey was distributed via email on Wednesday, 22 October at 09:15. A reminder was sent on the scheduled deadline day at 09:15. 
 
+## Results
 
-Time and resource constraints prevented us from conducting a manualized elicitation.
+### Limitations and emergent insights
+
+- By eliciting only point estimates rather than uncertainty intervals, this approach does not capture their confidence levels and may reinforce overconfidence bias.
+- Dal punto di vista operativo, la natura non verificabile del costrutto preclude l’applicazione di tecniche come il “performance weighting” (come descritto nel capitolo precedente), che richiedono domande a risposta nota per calibrare il peso degli esperti. Ciò ha reso inevitabile il ricorso a un’aggregazione a pesi uguali, un compromesso metodologico ampiamente accettato in contesti simili, sebbene comporti il rischio di diluire il contributo degli esperti più accurati.
 
 To our knowledge, there are no precedents in the literature for elicitations of this type. This meant we were unaware of the potential associated problems.
 
@@ -50,10 +49,6 @@ We found that one challenge for clinicians is shifting their focus from "improve
 Difficulty in finding clinicians with specific expertise in using a particular scale.
 
 A key challenge was the inherent circularity in defining the "minimally important change" for expert elicitation. To operationalize the concept, we used a clinical vignette depicting minimal but meaningful functional improvement and asked experts to quantify the expected Kessler-10 score change. While necessary, this approach relied on clinicians' individual interpretation, potentially introducing more variability. This underscores the importance of eliciting multiple expert judgments to capture diverse clinical perspectives.
-
-## Results
-
-
 
 ## Morris 
 
