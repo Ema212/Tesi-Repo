@@ -123,6 +123,8 @@ Together, these methods provide preliminary yet important frameworks for definin
 
 Based on what has been explained so far, it should be clear how a well-established and pre-specified effect size can strengthen inferential process and enhance the overall credibility of psychological research. In particular, the concept of a plausible effect size provides a solid basis for defining reasonable intervals for the true effect of a phenomenon. Conversely, methods for determining a Smallest Effect Size of Interest (SESOI) offer valuable guidance for identifying effects that are practically meaningful.
 
+DOVREMMO DIRLO DA QUALCHE PARTE CHE I SESOI DA NOI CALCOLATI SONO EPISTEMICAMENTE DIVERSI DAI PLAUSIBLE
+
 In the following table, we provide a concise summary of the advantages and disadvantages of both approaches.
 
 ```{=latex}
