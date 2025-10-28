@@ -1,43 +1,54 @@
-# Tailored elicitation procedure
+# Methodology
 
-In this chapter we will outline the methodology employed to define the smallest effect size of interest (SESOI) for the Kessler-10 (K-10) scale through a tailored elicitation process. We will address the issues of eliciting a SESOI, then we will give a brief introduction of the K-10. We will then explain the implemented procedure, along with its limitations.
+In this chapter we will outline the methodologcial framework employed to compare the smallest effect size of interest (SESOI), derived from a tailored elicitation process, and a literature-based plausible effect size.
 
-## The Kessler-10
+## Introduction
 
-The Kessler-10 (K-10) is a brief, 10-item self-report questionnaire designed to measure non-specific psychological distress, with a focus on symptoms of depression and anxiety. Respondents rate how frequently they experienced each symptom in the last 30 days on a 5-point scale (ranging from 1 = "None of the time" to 5 = "All of the time"). The total score ranges from 10 to 50, where higher scores indicate greater levels of psychological distress. Its brevity and robust psychometric properties make it a widely used tool in both research and primary care settings for screening and monitoring.
+Since time and resource constraints prevented us from conducting a manualized elicitation, we conducted a tailored elicitation. The elicitation consested of a survey via e-mail, with a one-shot question to answer. The choice of this non-manualized methodology is considered appropriate within the context of a master's thesis, intended for illustrative purposes only, and serves as a substitute for a proper elicitation process.
 
-## The elicitation procedure
+**the Kessler-10**
+The Kessler Psychological Distress Scale (K-10) is a brief, 10-item elf-report questionnaire, a screening measure of nonspecific psychological distress, with a focus on depression and anxiety symptomatology. It's used widely in international epidemiological research to detect mental health dysfunction. Its brevity, robust psychometric properties  [@lace2019investigating; @wojujutari2024consistency], and freely available use, make it a widely used tool in both research and primary care settings for screening and monitoring. Respondents rate how frequently they experienced each symptom in the last 30 days on a 5-point scale (ranging from 1 = "None of the time" to 5 = "All of the time"). The total score ranges from 10 to 50, where higher scores indicate greater levels of psychological distress. 
 
-Time and resource constraints prevented us from conducting a manualized elicitation, therefore we conducted a survey via e-mail, with a one-shot question to answer. The choice of this non-manualized methodology is considered appropriate within the context of a master's thesis, intended for illustrative purposes only, and serves as a substitute for a proper elicitation process.
+## Partecipants 
+
+The target population for the  elicitation consisted of practicing clinical therapists. The primary eligibility criteria were direct clinical experience and self-reported familiarity with the use of the Kessler-10 scale in their practice. Beyond these criteria, participants were selected based on a combination of convenience and availability.
+
+## Methods and materials
+
+### Metanalysis
+
+The meta-analysis by Madrid et al. (2025) was selected as a foundational case study for our power analysis due to its recency and its considerable congruence with the pre-registered randomized controlled trial (RCT) under investigation [@trial].
+
+Specifically, the meta-analysis synthesizes evidence on digital mental health interventions (DMHIs) for university students with mental health difficulties. A key commonality is that the majority of the included studies features a follow-up period extending not over six months. The pre-registered trial shares critical similarities in terms of its target population (university students experiencing significant distress), intervention type (a digital, transdiagnostic, guided self-help program), study design (randomized controlled trial), primary constructs measured (distress), and temporal framework.
+
+### SESOI Elicitation
 
 We will now outline how the survey was constructed, how experts were recruited and data collected.
 
-### Survey structure
-
+**Survey structure**: 
 The survey was centered around a detailed clinical vignette depicting a university student with emerging depressive symptoms. The vignette was designed to illustrate a scenario where, after an initial treatment, the patient exhibits a minimal, yet meaningful, functional improvement. Neither lenght of the treatment nor type of treatment was detailed. This choice may be discussed, but it's our opinion that  given the very definition of SESOI (the smallest effect size of interest) we are not interested in the time needed to obtained a relevant improvement, nor we are interested in how the improvement is obtained (whether it may be due to a certain treatment, or even spontaneous). Conversly, we are only interested in the score difference, given the relevant change.
 
 Following the vignette, the survey presents the pivotal question: "Given such a relevant change, what difference in the total K-10 score would you expect?" (the original and complete versione can be fount in the appendix)
 
-The methodology was inspired by the final two stages of the IDEA protocol (notably, "estimate" and "aggregate"[@hemming2018practical]:
-
-- Experts were asked to provide their best-guess estimates independently and privately within a one-week timeframe, avoiding group dynamics like groupthink. 
-- Following the core principle of the final IDEA phase, the collected responses were mathematically aggregated (using measures such as mean or median) to derive a group estimate.
+The methodology was inspired by the final two stages of the IDEA protocol (notably, "estimate" and "aggregate" phases) [@hemming2018practical]. In line with the "estimate" phase, experts were asked to provide their best-guess estimates independently and privately, avoiding group dynamics like groupthink, within the one-week frametime suggested by the protocol. Following the steps of the "aggregate" phase, the final IDEA phase, the collected responses were mathematically aggregated to derive a group estimate.
 
 To refine the clarity and feasibility of the elicitation instrument, a pilot test was conducted. A sample of 6 master's students in clinical psychology was recruited. After being provided with a description of the K-10 scale, they were sent the survey. Their feedback and responses were used to identify ambiguities and ensure clarity.
 
 Since no sensitive data were collected, ethical committee approval was deemed unnecessary. Participants were assured that their individual responses would be presented exclusively in aggregated form.
 
-### Expert recruitment and data collection
-
-The target population for the  elicitation consisted of practicing clinical therapists. The primary eligibility criteria were direct clinical experience and self-reported familiarity with the use of the Kessler-10 scale in their practice. Beyond these criteria, participants were selected based on a combination of convenience and availability.
-
-Upon agreeing to participate in the data collection, participants were sent the questionnaire directly via email, without a preliminary explanatory phase.
+Upon agreeing to participate in the data collection, participants were sent the questionnaire directly via email, without a preliminary explanatory phase. 
 
 The survey was distributed via email on Wednesday, 22 October at 09:15. A reminder was sent on the scheduled deadline day at 09:15. 
 
+### Convert
+
+To ensure comparability, the two indices were converted to a common metric.
+
+## Analysis 
+
 ## Results
 
-### Limitations and emergent insights
+## Discussion
 
 - By eliciting only point estimates rather than uncertainty intervals, this approach does not capture their confidence levels and may reinforce overconfidence bias.
 - Dal punto di vista operativo, la natura non verificabile del costrutto preclude l’applicazione di tecniche come il “performance weighting” (come descritto nel capitolo precedente), che richiedono domande a risposta nota per calibrare il peso degli esperti. Ciò ha reso inevitabile il ricorso a un’aggregazione a pesi uguali, un compromesso metodologico ampiamente accettato in contesti simili, sebbene comporti il rischio di diluire il contributo degli esperti più accurati.
@@ -50,28 +61,5 @@ Difficulty in finding clinicians with specific expertise in using a particular s
 
 A key challenge was the inherent circularity in defining the "minimally important change" for expert elicitation. To operationalize the concept, we used a clinical vignette depicting minimal but meaningful functional improvement and asked experts to quantify the expected Kessler-10 score change. While necessary, this approach relied on clinicians' individual interpretation, potentially introducing more variability. This underscores the importance of eliciting multiple expert judgments to capture diverse clinical perspectives.
 
-## Morris 
-
-Based on Morris (2007), **$d_{ppc2}$** is an effect size estimator specifically designed for pretest-posttest-control (PPC) group designs. Morris specifies that this estimator offers high precision and robustness to assumption violations.
-
-The formula goes as follows:
-
-$$
-d_{ppc2} = c_P \left[ \frac{(M_{post,T} - M_{pre,T}) - (M_{post,C} - M_{pre,C})}{SD_{pre}} \right]
-$$
-
-where: 
-- **$M_{post,T}$, $M_{pre,T}$**: Posttest and pretest means for the **treatment group**
-- **$M_{post,C}$, $M_{pre,C}$**: Posttest and pretest means for the **control group**
-- **$SD_{pre}$**: Pooled pretest standard deviation across both groups:
-
-$$
-SD_{pre} = \sqrt{\frac{(n_T - 1)SD_{pre,T}^2 + (n_C - 1)SD_{pre,C}^2}{n_T + n_C - 2}}
-$$
-
-- **$c_P$**: Small-sample bias correction factor:
-
-$$
-c_P \approx 1 - \frac{3}{4(n_T + n_C - 2) - 1}
-$$
+## Results
 

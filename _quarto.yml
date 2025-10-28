@@ -7,6 +7,7 @@ book:
     - chapters/chapter1.qmd
     - chapters/chapter2.qmd
     - chapters/chapter3.qmd
+    - chapters/chapter4.qmd
     - chapters/references.qmd
   appendices: 
     - appendices/appendix-a.qmd

@@ -1,0 +1,26 @@
+
+## Morris 
+
+Based on Morris (2007), **$d_{ppc2}$** is an effect size estimator specifically designed for pretest-posttest-control (PPC) group designs. Morris specifies that this estimator offers high precision and robustness to assumption violations.
+
+The formula goes as follows:
+
+$$
+d_{ppc2} = c_P \left[ \frac{(M_{post,T} - M_{pre,T}) - (M_{post,C} - M_{pre,C})}{SD_{pre}} \right]
+$$
+
+where: 
+- **$M_{post,T}$, $M_{pre,T}$**: Posttest and pretest means for the **treatment group**
+- **$M_{post,C}$, $M_{pre,C}$**: Posttest and pretest means for the **control group**
+- **$SD_{pre}$**: Pooled pretest standard deviation across both groups:
+
+$$
+SD_{pre} = \sqrt{\frac{(n_T - 1)SD_{pre,T}^2 + (n_C - 1)SD_{pre,C}^2}{n_T + n_C - 2}}
+$$
+
+- **$c_P$**: Small-sample bias correction factor:
+
+$$
+c_P \approx 1 - \frac{3}{4(n_T + n_C - 2) - 1}
+$$
+
