@@ -1,4 +1,44 @@
-# Title of the appendix {.appendix} 
+# Appendix A {.appendix} 
 
-You can write appendixes in the same way as chapters. Just add the class `appendix` to the header.
-Be sure to add it as an appendix in `_quarto.yml` as well.
+The following section presents the tailored elicitation script used in this study. As the elicitation was conducted with Italian experts, the communication is presented in its original Italian.
+
+>**Object**: 
+>
+>Partecipazione a studio per tesi magistrale
+>
+>**Body**:
+>
+>Gentile [dott./dott.ssa X]
+>
+>Grazie per aver aderito a questa raccolta dati. I risultati saranno impiegati per un lavoro di tesi magistrale sulla ricerca metodologica in psicologia clinica.
+>
+>Tempo di compilazione: **<5min**
+>
+>Il nostro obiettivo è valutare quale variazione del punteggio della scala Kessler-10 indica un minimo miglioramento clinico significativo, ossia un primo reale progresso nel paziente verso una migliore funzionalità.
+>
+>Sappiamo che quantificare la sua opinione potrebbe essere difficile, ma in questa fase dello studio è fondamentale basarsi sull’esperienza clinica di professionisti come lei.
+>
+>Consideri il seguente caso clinico a scopo esemplificativo.
+>
+>Il paziente è uno studente universitario, con una storia familiare di depressione ed episodi di bullismo in età evolutiva. Si è da poco trasferito in una nuova città per iniziare gli studi, ma riscontra difficoltà a livello accademico. Notando che il paziente comincia a manifestare un quadro sintomatologico depressivo gli somministra la Kessler-10. 
+>
+>Il paziente viene poi sottoposto a un trattamento. Dopo il trattamento, lei rileva un miglioramento minimo del funzionamento del paziente. 
+>
+>Di conseguenza risomministra la Kessler-10. 
+>
+>Quale differenza di punteggio complessivo si aspetta tra prima e dopo? 
+>
+>Mi aspetto una differenza di [x] punti.
+>
+>Qualora avesse dei dubbi, la preghiamo di indicare comunque il valore che ritiene più plausibile. In questa fase dello studio, la sua personale "intuizione clinica" è il dato che siamo interessati a rilevare.
+>
+>Le sue risposte saranno usate esclusivamente per scopi di ricerca e verranno condivise solamente in forma aggregata.
+>
+>**Le chiediamo cortesemente di rispondere a questa mail entro una settimana (Mercoledì 29 Ottobre).** Riceverà un promemoria il giorno della chiusura.
+>
+>Grazie per il suo prezioso contributo.
+>
+>Cordiali saluti
+>
+>Emanuele Bollini - Laureando magistrale
+>Gianmarco Altoè - Relatore supervisore

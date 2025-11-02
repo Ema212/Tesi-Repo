@@ -111,4 +111,4 @@ In chapter two, we will demonstrate that interpreting effect sizes is crucial fo
 
 Having established the foundation of this thesis, in chapter three we will explore expert elicitation procedures—methodologies for deriving effect sizes based on expert judgment—which we will use to determine the SESOI for the present research.
 
-In Chapter Four [...]
+Finally, in chapter four, we bridge theory and practice by implementing the proposed framework. We demonstrate its practical utility by applying the integrated results to inform the design and power analysis of a preregistered study, which serves as an illustrative case study.
