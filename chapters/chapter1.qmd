@@ -22,13 +22,13 @@ Replication is often divided in two categories. Replication that aims to closely
 
 In recent years, many studies have shown low replication rates in psychological research. This has led to the conclusion that many psychological findings may actually be false [@ioannidis2005most; @malich2022 ; @machery2020 ; @oberauer2019addressing ; @open2015 ; @vazire2022credibility].
 
-The main reason why positive results can be easily produced, and therefore published, is due to some inappropriate methodological practices: the most relevant among these are the misuse of an inferential procedure known as the Null Hypothesis Significance Test (NHST). and a range of questionable research practices (QMP). A larger overview regarding of these two phenomena will be proveided in the dedicated section [@head2015extent ; @scheel2022most; @ioannidis2005most].
+The main reason why positive results can be easily produced, and therefore published, is due to some inappropriate methodological practices: the most relevant among these are the misuse of an inferential procedure known as the Null Hypothesis Significance Test (NHST), and a range of questionable research practices (QRPs). A larger overview regarding of these two phenomena will be proveided in the dedicated section [@head2015extent ; @scheel2022most; @ioannidis2005most].
 
 The spread of false positives is worsened by a publication bias. Publications offering significant results tend to be published more frequently [@scheel2021]. There's a substantial pressure to publish, and studies presenting significant effects are often published at higher rate [@primbs2023; @banks2016questions]. At the same time, likely due to the inherent difficulty in replicating studies in psychology [@hall2023replication], scientific publishing world prioritizes novelty over replication [@open2015]. Which contributes to the dissemination of low-quality or non-replicable findings.
 
 This controversial finding undermines the very foundation of science, as replication is typically the primary mean by which we identify theories that are likely true. However, since replication is rarely done in psychology, overlapping theories that have not been decisively falsified yet remain common in the field [@eronen2021].
 
-## A brief mention to a conceptual crisis
+## A broad conceptual crisis
 
 The replication crisis has drawn attention to additional issues that characterize the field of psychology, many of which originate from the discipline's conceptual foundations and are worth noting: the validity crisis and the theory crisis. These aspects are broad and have been extensively discussed elsewhere. Here, a brief explanation will be provided, for the sake of completeness, before proceeding with the discussion of the replication crisis.
 
@@ -46,7 +46,7 @@ Theory crisis refers to "a weak logical link between theories and their empirica
 
 As Eronen and Bringmann highlighted we should invest more energy into building stronger and more precise theories [@eronen2021]. However psychology is a challenging field, and to build strong theories we first need to identify clear phenomena. Therefore, some argue they should focus more on exploratory research [@fife2022understanding; @oberauer2019addressing], and in phenomenon-driven research, as it helps constrain the space of plausible theories [@eronen2021].
 
-While the validity crisis and the theory crisis certainly warrant further investigation to strengthen psychology's conceptual foundations, the replication crisis is more commonly attributed to other factors. The two main areas of concern are questionable research practices and misunderstandings related to inferential methodology
+While the validity crisis and the theory crisis certainly warrant further investigation to strengthen psychology's conceptual foundations, the replication crisis is more commonly attributed to other factors. The two main areas of concern are questionable research practices and misunderstandings related to inferential methodology.
 
 ## Questionable Research Practices
 
@@ -58,7 +58,7 @@ Significant results, however, refer primarily to outcomes derived from the most 
 
 ## Inferential framework and its misunderstanding
 
-To address the methodological issues at the core of the replication crisis, we will first specify the inferential framework we are adopting. Then, we will outline the Neyman-Pearson approach, as it is useful for understanding the weaknesses of the aforementioned NHST
+To address the methodological issues at the core of the replication crisis, we will first specify the inferential framework we are adopting. Then, we will outline the Neyman-Pearson approach, as it is useful for understanding the weaknesses of the aforementioned NHST.
 
 ### Frequentist paradigm
 
@@ -102,13 +102,15 @@ In synthesis, even when properly understood, NHST presents some unavoidable weak
 
 As shown in this chapter, improving inferential methodology and addressing the replication crisis requires a broad set of interventions. One intervention is strengthening inference by applying the Neyman-Pearson framework as originally intended. Doing so, this thesis directly addresses two critical aspects of robust inference, often neglected in recent times: rigorous sample size planning and meaningful effect sizes interpretation.
 
-To do this effectively, it is essential to prespecify and formalize both the null and alternative hypotheses when designing a statistical test (as we outlined, when one is not able to formalize both hypothesis, more exploratory research should be done.) 
+To do this effectively, it is essential to pre-specify and formalize both the null and alternative hypotheses when designing a statistical test (as we outlined, when one is not able to formalize both hypothesis, more exploratory research should be done.) 
 This approach avoids some of the major limitations of Null Hypothesis Significance Testing (NHST). As discussed, NHST does not support prospective power analysis, which is necessary to determine an adequate sample size. As a result, many studies are underpowered. Moreover, statistical significance is sometimes achieved for trivially small effects, leading to results that are only weakly informative. Finally, researchers frequently misinterpret p-values as indicators of the strength of an effect.
 
-As we have shown, many of these issues can be addressed by explicitly considering the effect size under the alternative hypothesis. This allows for proper planning of adequately powered studies and requires a theoretical estimation of the expected effect, thereby emphasizing the importance of effect sizes.
+As we have shown, many of these issues can be addressed by explicitly considering the effect size under the alternative hypothesis. This allows for proper planning of adequately powered studies and requires a theoretical estimation of the expected effect, thereby emphasizing the importance of effect sizes. 
+
+This thesis addresses the central challenge of specifying a meaningful alternative hypothesis by proposing a possible solution to facilitate its pre-specification.
 
 In chapter two, we will demonstrate that interpreting effect sizes is crucial for obtaining meaningful results, although they are often assessed using uninformative benchmarks. We will introduce two approaches to ensure more meaningful consideration of effect sizes. The first is the "plausible effect size" [@gelman2014beyond], which helps define an effect size based on what is realistically expected in the context of the specific test. The second is the "Smallest Effect Size of Interest" [@anvari2021using], also known as SESOI, a concept recently applied in psychology that can help identify practically relevant effects. Finally, we will propose a method to compare these two approaches, assessing whether the effect sizes we consider meaningful are likely to be detected in practice.
 
-Having established the foundation of this thesis, in chapter three we will explore expert elicitation procedures—methodologies for deriving effect sizes based on expert judgment—which we will use to determine the SESOI for the present research.
+Having established the foundation of this thesis, in chapter three we will explore expert elicitation procedures, methodologies for deriving effect sizes based on expert judgment, which we will use to determine the SESOI for the present research.
 
 Finally, in chapter four, we bridge theory and practice by implementing the proposed framework. We demonstrate its practical utility by applying the integrated results to inform the design and power analysis of a preregistered study, which serves as an illustrative case study.

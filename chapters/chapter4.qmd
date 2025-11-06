@@ -1,35 +1,62 @@
 # Methodology
 
 A ema: se non li usi devi togliere i morris dalla bibliografia
+A ema: nell'appendice non va bene quel modo di lasciare la mail rendera male 
 
 In this chapter, we will apply the aforementioned methodology to integrate the plausible effect size and the smallest effect size of interest (SESOI), addressing its challenges and limitations. We will then conduct a power analysis for a preregistered study, informed by the outcomes of the previous steps, as a case study to demonstrate the practical utility and implications of this integrated approach for further research.
+
+## Famo 
+
+Spiega già nel Capitolo 2 che il SESOI è spesso within-subject, mentre il plausible effect size è spesso between-groups, e che questo richiederà una conversione.
+
+
+Limitazioni metodologiche (es. conversione metriche, assenza di intervalli di confidenza)
+
+Limitazioni legate agli esperti (es. numero, esperienza, misunderstanding concettuale)
+
+Limitazioni legate al contesto di ricerca (es. mancanza di letteratura standardizzata)
+
+CAPTIOLO 1:Defining probability as "the frequency... of an event in a set period of time" is more of a layman's definition. A more precise definition for this context is: "the long-run relative frequency of an event in a large number of repeated trials or experiments under identical conditions." This emphasizes the "long-run" aspect, which is fundamental to understanding both Neyman-Pearson and p-values.
 
 ## Introduction
 
 In the previous chapters, we highlighted the conceptual difference between statistical and practical significance, introducing respectively the concepts of the plausible effect size and smallest effect size of interest (SESOI). To bridge this gap, we presented a novel methodology to integrate these two approaches, thereby enhancing the interpretation of research findings and theory building in psychology, with a specific focus on clinical psychology.
 
-In this chapter we will move from the theoretical framework to its practical application, as follows. First, we will derive a plausible effect size from the existing literature and a SESOI through a process of expert elicitation, as justified in Chapter 3. We will then outline the methodological and conceptual challenges of comparing these two distinct measures, along with our proposed solution. Subsequently, to ground this methodology in a practical context, we will conduct a power analysis for a preregistered study, informed by the outcomes of these initial steps. Finally, the results from of this applied methodology will be presented and discussed.
+In this chapter we will move from the theoretical framework to its practical application, as follows. First, we will derive a plausible effect size from the existing literature and a SESOI through a process of expert elicitation, as justified in Chapter 3. We will then outline the methodological and conceptual challenges of comparing these two distinct measures, along with our proposed solution. Subsequently, to ground this methodology in a practical context, we will conduct a power analysis for a preregistered study, informed by the outcomes of these initial steps. Finally, the results from of this applied methodology will be presented and discussed. 
 
-Before detailing these steps, we contextualize the preregistered study that guides this methodological application. Both the expert elicitation and meta-analysis were specifically shaped for this purpose, serving as a demonstrative application example of how this methodology could inform hypothesis pre-specification. 
+A graphical rapresentation of the methodology is illustrated in figure 4.1, where we match the plausible effect size against the SESOI, to inform hypothesis specification and perform power analysis, as more deeply detailed in chapter 2.
 
-**Preregistred study**
-The preregistered study tests the efficacy of a guided digital self-help psychological intervention called Self-Help Plus (SH+) on university students in distress, comparing it against a standard support intervention (Psychological First Aid) [@trial]. The researchers intend to measure constructs related to psychological distress, such as stress, anxiety, and depression. The SH+ intervention is designed to target transdiagnostic constructs (such as stress management, self-compassion, and the ability to live in accordance with personal values) within the framework of well-being promotion.  
+![A graphical rapresentation of the whole methodology.](../figures/unificat.png){width=80% fig-align=center}
+
+Before detailing these steps, we will give a brief introduction to preregistration in general, and then contextualize the preregistered study that guides this methodological application. Both the expert elicitation and meta-analysis were specifically shaped for this purpose, serving as a demonstrative application example of how this methodology could inform hypothesis pre-specification. 
+
+### Preregistration
+We will noe present the principles and challenges of preregistration, providing context for the subsequent case study.
+
+Preregistration is a tool for enhancing research transparency, by declaring the research hypotheses, methodology, and analysis plan before data collection [@science; @ummul2021easing]. While it helps mitigate phenomena such as HARKing [@wagenmakers2012agenda], its effectiveness can be compromised. A known issue is the selective adherence to preregistrations, where they are cited in the final report only when results are significant, and omitted otherwise.
+
+A more robust solution is the registered report format. In this alternative publishing model, peer review is conducted before data are collected [@nosek2014registered]. Accepting the study before findings incentives researchers to prioritize meeting  research standards over obtaining satisfying results. Nonetheless, registered reports demand substantial upfront investment in peer review and require strong institutional support, creating practical barriers to their adoption [@ummul2021easing].
+
+### The preregistered case study 
+We will now introduce the trial used as a practical example to guide the proposed methodology.
+
+The preregistered study tests the efficacy of a guided digital self-help psychological intervention called Self-Help Plus (SH+) on university students in distress, comparing it against a standard support intervention (Psychological First Aid) [@trial]. The study adopts a rigorous methodological approach, employing a randomized controlled design across three Italian universities. A total of 210 participants will be randomly assigned to one of the two interventions, and outcome measures will be collected immediately after the program and at a 3-month follow-up to assess both immediate and sustained effects. The researchers intend to measure constructs related to psychological distress, such as stress, anxiety, and depression. The SH+ intervention is designed to target transdiagnostic constructs (such as stress management, self-compassion, and the ability to live in accordance with personal values) within the framework of well-being promotion. 
 
 The primary outcome measure of this study is the Kessler-10 (K-10) [@kessler2002short], a screening tool for psychological distress. As psychological distress is an umbrella term encompassing various constructs, such as stress, anxiety, and depression, the K-10 is specifically designed to capture symptoms primarily related to anxiety and depressive disorders.
+
 This 10-item self-report questionnaire is widely used in international epidemiological research to identify individuals with likely mental health disorders. Its brevity, strong psychometric properties [@lace2019investigating; @wojujutari2024consistency], and free availability make it a practical tool for both research and primary care settings. Respondents indicate how frequently they experienced each symptom over the past 30 days on a 5-point Likert scale (from 1 = "None of the time" to 5 = "All of the time"). Total scores range from 10 to 50, with higher scores reflecting greater severity of psychological distress.
 
 ## Methods and materials
+In the following subsections we will detail the specific procedures applied for each phase, in the following order: 
 
-In the following subsections we will detail the specific procedures apllied for each phase, in the following order: 
 - Meta-analysis: we will select a mata-analysis from literature to determine the plausible effect size.
 - Elicitation: we will describe a tailored elicitation procedure applied to derive the smallest effect size of interest (SESOI).
 - Comparison: we will address the challenges linked to the comparison of these distinct measures and present one possible solution.
 
 ### Meta-analysis
+We selected a meta-analysis by Madrid et al. (2025) as a foundational case study for our power analysis due to its recency and its considerable congruence with the preregistered randomized controlled trial (RCT) under investigation [@trial].
 
-We selected a meta-analysis by Madrid et al. (2025) as a foundational case study for our power analysis due to its recency and its considerable congruence with the pre-registered randomized controlled trial (RCT) under investigation [@trial].
-
-Specifically, the meta-analysis synthesizes evidence on digital mental health interventions (DMHIs) for university students with mental health difficulties, investigating outcomes across both anxiety and depression domains. The pre-registered trial shares critical similarities in terms of its target population (university students experiencing significant distress), intervention type (a digital, transdiagnostic, guided self-help program), study design (randomized controlled trial), primary constructs measured (distress), and temporal framework (the majority of the included studies features a follow-up period extending not over six months, relatively close to the three months follow-up in the pre-registered study).
+Specifically, the meta-analysis synthesizes evidence on digital mental health interventions (DMHIs) for university students with mental health difficulties, investigating outcomes across both anxiety and depression domains. The preregistered trial shares critical similarities in terms of its target population (university students experiencing significant distress), intervention type (a digital, transdiagnostic, guided self-help program), study design (randomized controlled trial), primary constructs measured (distress), and temporal framework (the majority of the included studies features a follow-up period extending not over six months, relatively close to the three months follow-up in the preregistered study).
 
 For the present study, we extracted the effect size for depression outcomes from this meta-analysis to serve as our plausible effect size. This choice aligns with the expert elicitation procedure, which was about the score variation of the K-10 using a clinical vignette featuring a patient with depressive symptoms.
 
@@ -42,39 +69,66 @@ We will now outline how the survey was constructed, how experts were recruited a
 Since time and resource constraints prevented us from conducting a manualized elicitation, we conducted a tailored elicitation, that could best meet our resources limitation. The elicitation consested of a survey via e-mail, with a one-shot question to answer. The choice of this non-manualized methodology is considered appropriate within the context of a master's thesis, intended for illustrative purposes only, and serves as a substitute for a proper elicitation process.
 The complete elicitation email is reproduced in its original language in Appendix A.
 
-**Survey structure**: 
-The survey was centered around a detailed clinical vignette depicting a university student with emerging depressive symptoms. The vignette was designed to illustrate a scenario where, after an initial treatment, the patient exhibits a minimal, yet meaningful, functional improvement. Neither lenght of the treatment nor type of treatment was detailed. This choice may be discussed, but it's our opinion that  given the very definition of SESOI (the smallest effect size of interest) we are not interested in the time needed to obtained a relevant improvement, nor we are interested in how the improvement is obtained (whether it may be due to a certain treatment, or even spontaneous). Conversly, we are only interested in the score difference, given the relevant change.
+\vspace{0.5cm}
+::: {.subtitle}
+**Survey structure**
+:::
+The survey was centered around a detailed clinical vignette depicting a university student with emerging depressive symptoms. The vignette was designed to illustrate a scenario where, after an initial treatment, the patient exhibits a minimal, yet meaningful, functional improvement. Neither lenght of the treatment nor type of treatment was detailed. This choice may be discussed, but it's our opinion that given the very definition of SESOI (the smallest effect size of interest) we are not interested in the time needed to obtained a relevant improvement, nor we are interested in how the improvement is obtained (whether it may be due to a certain treatment, or even spontaneous). Conversly, we are only interested in the score difference, given the relevant change.
 
 Following the vignette, the survey presents the pivotal question: "Given such a relevant change, what difference in the total K-10 score would you expect?" (the original and complete versione can be fount in the appendix)
 
 The methodology was inspired by the final two stages of the IDEA protocol (notably, "estimate" and "aggregate" phases), which we detailed in the previous chatper [@hemming2018practical]. In line with the "estimate" phase, experts were asked to provide their best-guess estimates independently and privately, avoiding group dynamics like groupthink, within the one-week frame-time suggested by the protocol. Following the steps of the "aggregate" phase, the final IDEA phase, the collected responses were mathematically aggregated to derive a group estimate.
 
+\vspace{0.5cm}
+::: {.subtitle}
 **Pilot Test**
+:::
 To refine the clarity and feasibility of the elicitation instrument, a pilot test was conducted. A sample of 6 master's students in clinical psychology was recruited. After being provided with a description of the K-10 scale, they were sent the survey. Their feedback and responses were used to identify ambiguities and ensure clarity.
 
+\vspace{0.5cm}
+::: {.subtitle}
 **Ethical**
+:::
 Since no sensitive data were collected, ethical committee approval was deemed unnecessary. Participants were assured that their individual responses would be presented exclusively in aggregated form.
 
+\vspace{0.5cm}
+::: {.subtitle}
 **Partecipants**
+:::
 A panel of 8 experts in clinical psychology were recruited. Experts were defined as licensed psychoterapists with over 2 years of clinical experience, who simministrate or used to somministrate the K-10 in their clinical practice. Recruitment occurred by personal invitations, based on a combination of convenience and availability
 
+\vspace{0.5cm}
+::: {.subtitle}
 **Data collection**
+:::
 Upon agreeing to participate in the data collection, participants were sent the questionnaire directly via email, without a preliminary explanatory phase. 
 The survey was distributed via email on Wednesday, 22 October at 09:15. A reminder was sent on the scheduled deadline day at 09:15. 
 
 ### Comparison
 
-As noted in chapter 2,primary objective is to juxtapose the SESOI with the plausible effect size. 
+As noted in chapter 2, our primary objective is to juxtapose the SESOI with the plausible effect size. 
 
-*Problem*
+\vspace{0.5cm}
+::: {.subtitle}
+**Problem**
+:::
 A key methodological challenge lies in the inherent different between the plausible and the SESOI.
 
-The first difference is methodological: while the plausible effect size from the meta-analysis is a between-groups Cohen's *d* (calculated as a standardized mean difference), the expert-elicited SESOI represents a within-subject pre-post change. Consequently, even by imputing a reasonable standard deviation for the SESOI, the two measures do not share the same metric.
+The first difference is methodological. The plausible effect size from the meta-analysis is a between-groups Cohen's *d*. This metric is derived from studies that use a randomized controlled trial (RCT) design, where participants are randomly assigned into separate groups, i.e. a treatment group and a control group. Participants in the control group are given a placebo treatment, while participants in the treatment group are given the actual treatment. After the intervention, the effect size is calculated as the standardized mean difference in outcomes between these two groups at a single post-intervention assessment. 
+In contrast, the expert-elicited SESOI represents a within-subject pre-post change,  where a single group of participants is measured both before and after an intervention. The change is calculated as the difference in scores within the same individuals across the two time points. 
 
-The second difference is conceptual: the between-groups Cohen's *d* reflects a relative difference between treatment and control groups at post-test, whereas the elicited SESOI represents an absolute pre-post improvement within the treatment group.
+[non hanno la stessa metrica, ma una fonte affidabile della stessa metrica?]
 
-*Solutions*
-To ensure comparability, the two indices were converted to a common metric.
+Consequently, imputing a reasonable standard deviation for the SESOI, the two measures do not share the same metric.
+
+Based on the difference just illustrated, a conceptual difference also follows, whereby the between-groups Cohen's *d* reflects a relative difference between treatment and control groups at post-test, whereas the elicited SESOI represents an absolute pre-post improvement within the treatment group.
+
+
+\vspace{0.5cm}
+::: {.subtitle}
+**Solutions**
+:::
+To ensure comparability, the ___ was converted to the same metric as ___ , using the formula ___ 
 
 ## Analysis 
 
@@ -84,26 +138,34 @@ To ensure comparability, the two indices were converted to a common metric.
 
 This study faced several methodological challenges inherent to novelty of the expert elicitation procedures. The limitations can be grouped into the following subgroups:
 
-Teorica
-
-1) A key challenge was the inherent circularity in defining the "minimally important change". To anchor this abstract concept, we used a clinical vignette depicting a patient with emerging depressive symptoms, asking experts to envision a slight but meaningful functional improvement. We then asked the experts to quantify that improvement into the expected Kessler-10 score change. While this provided a concrete reference, the procedure remained intrinsically subjective, relying on individual clinicians' interpretations of the central construct, potentially introducing more variability. This underscores the importance of eliciting multiple expert judgments to capture diverse clinical perspectives.
+Un po' più teoriche
 
 2) Since we are dealing with constructs that cannot be verified, we could not operate techniques such as performance weighting, as described in the previous chapter, which require questions with known answers to calibrate expert weights. This constraint made the use of equal-weight aggregation inevitable, a methodological compromise widely accepted in similar contexts, despite carrying the risk of diluting the contribution of the more accurate experts.
 
-3) By eliciting only point estimates rather than uncertainty intervals, this approach does not capture their confidence levels and may reinforce overconfidence bias.
-
 4) The heterogeneity of outcome measures across meta-analyses limited the comparability between the meta-analytic effect size and the elicited SESOI. A synthesis based on a single instrument would have been preferable, but such standardization remains rare in the literature.
 
-Legate all'expertise, che abbiamo  capito dopo
+Legate alla nostra elicitazione
 
-2) Since the literature on treatment efficacy mostly reports effect sizes between-groups using Cohen's *d*, a directly comparable approach would be to elicit a score change reflecting improvement relative to a control group. We believe, however, that this method is conceptually problematic. Clinicians lack direct experience with control groups, thereby undermining the very expertise elicitation seeks to capture. Furthermore, this framing inherently assumes that the control group cannot show clinically relevant effects, a crucial assumption that must be disccussed.These methodological issues clearly require further examination.
+1) A key challenge was the inherent circularity in defining the "minimally important change". To anchor this abstract concept, we used a clinical vignette depicting a patient with emerging depressive symptoms, asking experts to envision a slight but meaningful functional improvement. We then asked the experts to quantify that improvement into the expected Kessler-10 score change. While this provided a concrete reference, the procedure remained intrinsically subjective, relying on individual clinicians' interpretations of the central construct, potentially introducing more variability. This underscores the importance of eliciting multiple expert judgments to capture diverse clinical perspectives. 
 
-1) We encountered some difficulty in finding clinicians with specific expertise in using a particular scale.
+By eliciting only point estimates rather than uncertainty intervals, this approach does not capture their confidence levels and may reinforce overconfidence bias.
 
-2) Some experts mistook the SESOI with a measure of treatment efficacy. However, the SESOI defines a clinically meaningful score change on the K-10, regardless of how that improvement is achieved (e.g., treatment, spontaneous remission, or placebo effect). This conceptual confusion was evident when experts inquired about the specific treatment, revealing a focus on the source of improvement rather than the score change that defines it.
+This limitation could be mitigated in future research by employing a formal elicitation protocol, such as the IDEA protocol, which includes dedicated phases for properly introducing and aligning experts' understanding of the target constructs.
+
+Legate all'expertise, che abbiamo capito dopo
+
+2) Since the literature on treatment efficacy mostly reports effect sizes between-groups using Cohen's *d*, a directly comparable approach would be to elicit a score change reflecting improvement relative to a control group. We believe, however, that this method may be conceptually problematic for two reasons. Clinicians lack direct experience with control groups, which could undermine the very expertise elicitation seeks to capture. Furthermore, this framing implicitly assumes that the control group cannot show clinically relevant effects, a significant assumption that must be discussed. While this limits direct comparability, and could be further discussed, our chosen approach prioritizes the ecological validity of the clinical judgment we sought to elicit.
+
+2) Some experts mistook the SESOI with a measure of treatment efficacy. However, the SESOI defines a clinically meaningful score change on the K-10, regardless of how that improvement is achieved (e.g., treatment, spontaneous remission, or placebo effect). This conceptual confusion was evident when experts inquired about the specific treatment, revealing a focus on the source of improvement rather than the score change that defines it. This underscores a current knowledge gap between methodology and practice. As concepts like SESOI become more integrated into clinical training, this barrier will diminish, facilitating future applications of these techniques.
 
 ### Closing morale 
 
 ---> The primary contribution of this thesis lies not in a specific empirical finding, but in the development and illustration of this procedural framework itself. The ultimate aim is to provide a replicable template for enhancing the interpretation and planning of psychological studies.
-This chapter details the steps of this novel approach—from the elicitation of a practical threshold to its comparison with a literature-based benchmark—and concludes with a practical demonstration of how such an integration can inform research design. 
+
+The challenges we encountered largely reflect the pioneering stage of applying SESOI in a clinical context. With the initial exploration of this methodology along with its obstacles, we hope to offer a preliminary step for future research to develop more refined and effective approaches.
+
+### Conclusion
+
+This chapter details the steps of this novel approach, from the elicitation of a practical threshold to its comparison with a literature, based benchmark—and concludes with a practical demonstration of how such an integration can inform research design.
+
 

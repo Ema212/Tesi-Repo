@@ -31,19 +31,16 @@ $$
 $$
 This formulation allows for standard interpretation across different measurement scales, which enhances comparability in psychological research.
 
+To illustrate how a standardized effect size such as Cohen’s *d* operates in practice, we provide a practical illustration in the following section.
+
 ### Illustrating effect size
 
 To illustrate how a standardized effect size such as Cohen’s d operates in practice, we now present a simplified example based on a pre-post intervention study in a clinical context. In such studies, psychological distress is typically measured before and after an intervention using standardized instruments, for example, the Kessler Psychological Distress Scale (K-10). Participants are randomly assigned to a treatment group or a control group, and the effect of the intervention is assessed by comparing changes in K-10 scores. 
 In the following example, intended solely for didactic purposes, we provide a visual and conceptual representation of what it means to specify an effect size under the null and alternative hypotheses. Specifically, our alternative hypothesis specifies an expected standardized effect of *d* = 0.41.
 
-The figure 2.2.1 shows two theoretical distributions of the test statistic under the null hypotheses (H~0~) and alternative hypotheses (H~1~), within a Neyman-Pearson framework. These distributions derive from a comparison between a treatment group and a control group in a pre-post design. The black curve represents the distribution under the null hypothesis (H~0~), which assumes that the intervention has no effect (i.e., the mean change in the treatment group is equal to that in the control group) corresponding to an effect size of *d* = 0. The blue curve represents the alternative hypothesis (H~1~), assuming a true standardized effect size of *d* = 0.41, meaning the treatment group improves, on average, by 0.41 standard deviations more than the control group. The distance between the two distributions reflects the assumed effect magnitude. 
+The figure 2.1 shows two theoretical distributions of the test statistic under the null hypotheses (H~0~) and alternative hypotheses (H~1~), within a Neyman-Pearson framework. These distributions derive from a comparison between a treatment group and a control group in a pre-post design. The black curve represents the distribution under the null hypothesis (H~0~), which assumes that the intervention has no effect (i.e., the mean change in the treatment group is equal to that in the control group) corresponding to an effect size of *d* = 0. The blue curve represents the alternative hypothesis (H~1~), assuming a true standardized effect size of *d* = 0.41, meaning the treatment group improves, on average, by 0.41 standard deviations more than the control group. The distance between the two distributions reflects the assumed effect magnitude. 
 
-
-::: {#imag_1 .center}
-![](../figures/esgen.png){width=40%,align.center}
-
-Figure 2.2.1: A graphical rapresentation of a Cohen's *d*, in a RCT group. [@magnussonCausalTherapistEffects]
-:::
+![A graphical rapresentation of a Cohen's *d*, in a RCT group (Magnusson, 2023).](../figures/esgen.png){width=80% fig-align=center}
 
 We have provided a graphic illustration of an effect size, which represents values distribution when the treatment has no effect (H~0~) and when the effect is 0.41 (H~1~). It is quite intuitive though that neither a graphical representation nor a numerical value clearly informs us of _how much_ of improvement patient have experienced under the alternative hypothesis. This example introduces the main matter discussed in this thesis that we will detail in the following section, that is interpretation of effect size.
 
@@ -62,25 +59,13 @@ Practical significance, instead, refers to the distinction between interesting a
 
 These points illustrate the necessity of evaluating effect sizes within the specific context and goals of research. Despite this, the interpretation of effect sizes is usually related to a classification proposed by Cohen [@cohen1988statistical], who suggested values of *d* = 0.2, *d* = 0.5, *d* = 0.8 as indicative of "small", "medium" and "large" effect sizes respectively. 
 
-A graphical rapresentation of the three effect sizes is reported at figure 2.2.1, 2.2.2 and 2.2.3 respectively. These sets of distributions derive from a hypothetical comparison between a treatment group and a control group in a pre-post design. The black curves always represent the distribution under the null hypothesis (H~0~), which assumes that the intervention has no effect (i.e., the mean change in the treatment group is equal to that in the control group) corresponding to an effect size of *d* = 0. The blue curves always  represent the alternative hypothesis (H~1~), assuming a true standardized effect size of of *d* = 0.2, *d* = 0.5, *d* = 0.8, meaning the treatment group improves, on average, by 0.2, 0.5 and 0.8 standard deviations more than the control group, respectively. The distance between each pair of distributions reflects the assumed effect magnitudes. 
+A graphical rapresentation of the three effect sizes is reported at figure 2.2, 2.3 and 2.4 respectively. These sets of distributions derive from a hypothetical comparison between a treatment group and a control group in a pre-post design. The black curves always represent the distribution under the null hypothesis (H~0~), which assumes that the intervention has no effect (i.e., the mean change in the treatment group is equal to that in the control group) corresponding to an effect size of *d* = 0. The blue curves always  represent the alternative hypothesis (H~1~), assuming a true standardized effect size of of *d* = 0.2, *d* = 0.5, *d* = 0.8, meaning the treatment group improves, on average, by 0.2, 0.5 and 0.8 standard deviations more than the control group, respectively. The distance between each pair of distributions reflects the assumed effect magnitudes. 
 
-::: {#imag_1 .center}
-![](../figures/02es.jpg){width=40%,align.center}
+![A graphical representation of 0.2 Cohen's *d* (Magnusson, 2023)](../figures/02es.jpg){width=70% fig-align=center}
 
-Figure 2.2.1: A graphical rapresentation of 0.2 Cohen's *d* [@magnussonCausalTherapistEffects].
-:::
+![A graphical representation of 0.5 Cohen's *d* (Magnusson, 2023)](../figures/05es.jpg){width=70% fig-align=center}
 
-::: {#imag_1 .center}
-![](../figures/05es.jpg){width=40%,align.center}
-
-Figure 2.2.2: A graphical rapresentation of 0.5 Cohen's *d* [@magnussonCausalTherapistEffects].
-:::
-
-::: {#imag_1 .center}
-![](../figures/08es.jpg){width=40%,align.center}
-
-Figure 2.2.3: A graphical rapresentation of 0.8 Cohen's *d* [@magnussonCausalTherapistEffects].
-:::
+![A graphical representation of 0.8 Cohen's *d* (Magnusson, 2023)](../figures/08es.jpg){width=70% fig-align=center}
 
 While Cohen himself intended these benchmarks as a last resource reference, psychology research has adopted them as standards. Unfortunately, applying these benchmarks without considering the context leads to uninformative conclusions [@funder2019evaluating]. Effect sizes require different interpretations depending on the field of interest, the specific content, and the research methods used, as in a given field a small effect size can be extremely relevant in practice[@altoe2020enhancing].
 
@@ -135,8 +120,10 @@ In the following table, we provide a concise summary of the advantages and disad
 \hline
 \textbf{Pros}   & • Evidence based              & • Practically informative\\
 \hline  
-\textbf{Cons}   & • Practically uninfromative   & • Strongly relies on subjectivity\\
-                & • Requires high-quality meta-analysis & • Requires attentive esteems\\
+\textbf{Cons}   & • Practically uninfromative   & • Strongly subjective\\
+\hline  
+\textbf{Require}   & • High-quality meta-analysis & • Attentive esteems procedures\\
+                
 \hline
 
 \end{tabular}
@@ -144,35 +131,23 @@ In the following table, we provide a concise summary of the advantages and disad
 \end{center}
 ```
 
-Building on this foundation, the aim of this thesis is to propose a methodology that uses both concepts in a complementary way. Specifically, we seek to assess whether the SESOI identified is contained within the plausible interval for the effect size or, conversely, whether the effect sizes considered plausible include effects that are practically meaningful, thus ensuring that the estimated true effect is not only statistically valid but also relevant.
+\vspace{0.5\baselineskip}
+
+Building on this foundation, we propose a methodology that uses both concepts in a complementary way, leveraging their respective advantages. Specifically, we seek to assess whether the SESOI identified is contained within the plausible interval for the effect size or, conversely, whether the effect sizes considered plausible include effects that are practically meaningful, thus ensuring that the estimated true effect is not only statistically valid but also relevant.
 
 The procedure goes as follows: 
 
-1) Since systematic reviews and meta-analyses can provide guidance on typical effect sizes [@gelman2014beyond], we can derive a plausible effect size using meta-analytic data. For illustration purpose, we assumed hypothetical meta-analytic results, evaluating efficacy of a clinical intervention, measured with a questionnaire that asses well-being levels. In this scenario, the meta-analysis indicates that the Coehn's *d* compared to the control was 0.44, with a 95% confidence interval from 0.27 to 0.61, indicating an improvement in well-being levels. We decide to set our plausible effect size within the confidence interval. A graphical hypothetical representation is shown in figure 2.3.1.
+1) Since systematic reviews and meta-analyses can provide guidance on typical effect sizes [@gelman2014beyond], we can derive a plausible effect size using meta-analytic data. For illustration purpose, we assumed hypothetical meta-analytic results, evaluating efficacy of a clinical intervention, measured with a questionnaire that asses well-being levels. In this scenario, the meta-analysis indicates that the Coehn's *d* compared to the control was 0.44, with a 95% confidence interval from 0.27 to 0.61, indicating an improvement in well-being levels. We decide to set our plausible effect size within the confidence interval. A graphical hypothetical representation is shown in figure 2.5.
 
-::: {#imag_1 .center}
-![](../figures/plaus.png){width=35%,align.center}
+![A graphical rapresentation of a hypothetical plausible effect size.](../figures/plaus.png){width=80% fig-align=center}
 
-Figure 2.3.1: A graphical rapresentation of a hypothetical plausible effect size
-:::
+2) As consensus methods are appropriate for guiding decisions in setting a SESOI that reflects practical relevance [@riesthuis2024statistical], we will use  this approach to generate one. We will give particular attention to the matter of consensus methods in the following chapter. For clarity, we generated three different possible SESOI scores that may emerge from three different elicitation processes, as graphically represented in figure 2.6.
 
-2) As consensus methods are appropriate for guiding decisions in setting a SESOI that reflects practical relevance [@riesthuis2024statistical], we will use  this approach to generate one. We will give particular attention to the matter of consensus methods in the following chapter. For clarity, we generated three different possible SESOI scores that may emerge from three different elicitation processes, as graphically represented in figure 2.3.2.
+![A graphical rapresentation of the hypothethical SESOIs.](../figures/3effs.png){width=80% fig-align=center}
 
-::: {#imag_1 .center}
-![](../figures/3effs.png){width=35%,align.center}
+3) The two results are then compared, as illustrated in figure 2.7 and discussed. The matter of comparison requires critical and deep thinking, depending heavily on the choices about how both the SESOI and the plausible effect size are collected (we will provide a concrete example of such choices and discuss the direct implementation of this framework in chapter 4.) Following the comparison, results  are interpreted. In the case of the first and smallest generated SESOI score, for example, we might think that since the plausible effect size falls after the line of clinical significance, the vast majority of results in this particular field of research are clinically relevant. With the second and middle-ranged SESOI score, we could say that most of the results in this field are somewhat clinically relevant. With the last and largest SESOI score, we might argue that our clinical interventions are clinically irrelevant, even though the effect size might sometimes be even medium or large, based on Cohen's standards. Conversly, we could also say that our questionnaire are not suited to effectively identify a clinically relevant change. Obviously, results are never so easily discussed, and deeper reasoning is yet to be done.  
 
-Figure 2.3.2: A graphical rapresentation of the hypothethical SESOIs
-:::
-
-
-3) The two results are then compared, as illustrated in figure 2.3.3 and discussed. In the case of the first and smallest generated SESOI score, for example, we might think that since the plausible effect size falls after the line of clinical significance, the vast majority of results in this particular field of research are clinically relevant. With the second and middle-ranged SESOI score, we could say that most of the results in this field are somewhat clinically relevant. With the last and largest SESOI score, we might argue that our clinical interventions are clinically irrelevant, even though the effect size might sometimes be even medium or large, based on Cohen's standards. Connversly, we could also say that our questionnaire are not suited to effectively identify a clinically relevant change. Obviously, results are never so easily discussed, and deeper reasoning is yet to be done.  
-
-::: {#imag_1 .center}
-![](../figures/graphmatch.png){width=35%,align.center}
-
-Figure 2.3.3: A graphical rapresentation of the comparison between the plausile effect size and the SESOI.
-:::
-
+![The comparison between the plausile effect size and the SESOIs.](../figures/graphmatch.png){width=80% fig-align=center}
 
 4) Finally, a design analysis will be conducted on the obtained result, to illustrate the practical utility of the proposed methodology.  
 
@@ -184,4 +159,4 @@ In the previous chapter, we discussed how the NHST framework often leads researc
 
 We defined the effect size, outlined common interpretative pitfalls, and distinguished statistical from practical significance. To enhance interpretation, we presented two complementary approaches: the plausible effect size, based on prior evidence or theory, and the Smallest Effect Size of Interest (SESOI), based on practical relevance. We then proposed a method to integrate both, comparing whether plausible effects are also meaningful.
 
-This chapter shows that careful consideration of effect sizes strengthens inference and improves research utility. In the next chapter, we will explore expert elicitation as a method to define the SESOI within our framework.
+This chapter shows that careful consideration of effect sizes strengthens inference,  supporting the application of the Neyman-Pearson framework, and improves research utility. In the next chapter, we will explore expert elicitation as a method to define the SESOI within our framework.
