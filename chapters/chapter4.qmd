@@ -1,22 +1,6 @@
 # Methodology
 
-A ema: se non li usi devi togliere i morris dalla bibliografia
-A ema: nell'appendice non va bene quel modo di lasciare la mail rendera male 
-
 In this chapter, we will apply the aforementioned methodology to integrate the plausible effect size and the smallest effect size of interest (SESOI), addressing its challenges and limitations. We will then conduct a power analysis for a preregistered study, informed by the outcomes of the previous steps, as a case study to demonstrate the practical utility and implications of this integrated approach for further research.
-
-## Famo 
-
-Spiega già nel Capitolo 2 che il SESOI è spesso within-subject, mentre il plausible effect size è spesso between-groups, e che questo richiederà una conversione.
-
-
-Limitazioni metodologiche (es. conversione metriche, assenza di intervalli di confidenza)
-
-Limitazioni legate agli esperti (es. numero, esperienza, misunderstanding concettuale)
-
-Limitazioni legate al contesto di ricerca (es. mancanza di letteratura standardizzata)
-
-CAPTIOLO 1:Defining probability as "the frequency... of an event in a set period of time" is more of a layman's definition. A more precise definition for this context is: "the long-run relative frequency of an event in a large number of repeated trials or experiments under identical conditions." This emphasizes the "long-run" aspect, which is fundamental to understanding both Neyman-Pearson and p-values.
 
 ## Introduction
 
@@ -53,6 +37,7 @@ In the following subsections we will detail the specific procedures applied for 
 - Elicitation: we will describe a tailored elicitation procedure applied to derive the smallest effect size of interest (SESOI).
 - Comparison: we will address the challenges linked to the comparison of these distinct measures and present one possible solution.
 
+
 ### Meta-analysis
 We selected a meta-analysis by Madrid et al. (2025) as a foundational case study for our power analysis due to its recency and its considerable congruence with the preregistered randomized controlled trial (RCT) under investigation [@trial].
 
@@ -60,10 +45,9 @@ Specifically, the meta-analysis synthesizes evidence on digital mental health in
 
 For the present study, we extracted the effect size for depression outcomes from this meta-analysis to serve as our plausible effect size. This choice aligns with the expert elicitation procedure, which was about the score variation of the K-10 using a clinical vignette featuring a patient with depressive symptoms.
 
-The effect size we extracted was ____ 
+The effect size we extracted was _d_= 0.55
 
 ### Elicitation procedure
-
 We will now outline how the survey was constructed, how experts were recruited and data collected.
 
 Since time and resource constraints prevented us from conducting a manualized elicitation, we conducted a tailored elicitation, that could best meet our resources limitation. The elicitation consested of a survey via e-mail, with a one-shot question to answer. The choice of this non-manualized methodology is considered appropriate within the context of a master's thesis, intended for illustrative purposes only, and serves as a substitute for a proper elicitation process.
@@ -102,70 +86,160 @@ A panel of 8 experts in clinical psychology were recruited. Experts were defined
 **Data collection**
 :::
 Upon agreeing to participate in the data collection, participants were sent the questionnaire directly via email, without a preliminary explanatory phase. 
-The survey was distributed via email on Wednesday, 22 October at 09:15. A reminder was sent on the scheduled deadline day at 09:15. 
+The survey was distributed via email on Wednesday, 22 October at 09:15 to six of the partecipants, and a second survey was distributed via email on Monday, 27 October at 9:15 to the remaining two (whose mail address took longer to collect.)
+A reminder was sent on the scheduled deadline day (29 October) at 09:15 for the first survey and on the scheduled deadline day (3 November) for the second round. 
 
-### Comparison
+**Exclusion and interpretation**
+Out of 8 experts, 3 responses were excluded as missing data for different reasons. One expert requested additional information, deeming the protocol invalid without it. Despite our clarification, the expert failed to provide a quantitative estimate. One expert raised concerns about the clinical relevance of the parameter proposed in the answer, casting doubt on the reliability of this response. One expert, during the response phase, revealed information that confirmed to have been erroneously included in the panel, not meeting the pre-defined expertise criteria.
 
-As noted in chapter 2, our primary objective is to juxtapose the SESOI with the plausible effect size. 
+Out of five accepted responses, two responses have been discussed. 
+One response offered two different estimate under different baseline scenario, proposing 5 under moderate distress and six-to-eight under severe distress condition. Since our clinical vignette did not depicted a severe distress condition, and since its coherent with the definition of a minimal yet meaningful improvement, we took the lower response. One response offered six-to-seven as value. Relying on the same reasoning as the previous case, we considered the lower value. 
+
+Following these methodological decisions, the resulting five values were "5, 5, 5, 5, 6".
+
+**Aggregation**
+Since we are dealing with constructs that cannot be verified, we could not operate techniques such as performance weighting, as described in the previous chapter, which require questions with known answers to calibrate expert weights. This constraint made the use of equal-weight aggregation inevitable, a methodological compromise widely accepted in similar contexts, despite carrying the risk of diluting the contribution of the more accurate experts. Although the choice of aggregation method in such methodologies is often subject to discussion, in this case the mode, median, and mean were all equal to 5. Therefore, we established the value of 5 as the reasonable definitive reference value.
+
+### Matching SESOI and Plausible effect
+As outlined in chapter 2, our primary objective is to juxtapose the SESOI with the plausible effect size, as this will enable us to conduct a power analysis informed by the comparison of the two indices. A key methodological challenge lies in the inherent difference between the plausible and the SESOI, as these two indices are derived from different study designs. In this section we will illustrate the differences between the two and under which assumption we are able to do the comparison. 
+ 
+\vspace{0.5cm}
+::: {.subtitle}
+**Metanalysis**
+:::
+The plausible effect size from the meta-analysis is a between-groups Cohen's *d*. This metric is derived from studies that use a randomized controlled trial (RCT) design, where participants are randomly assigned into separate groups, i.e. a treatment group and a control group. Participants in the control group are given a placebo treatment, while participants in the treatment group are given the actual treatment. After the intervention, the effect size is calculated as follows:
+
+$$
+d_{between} = \frac{M_{treat} - M_{control}}{SD_{pooled}}
+$$
 
 \vspace{0.5cm}
 ::: {.subtitle}
-**Problem**
+**SESOI**
 :::
-A key methodological challenge lies in the inherent different between the plausible and the SESOI.
 
-The first difference is methodological. The plausible effect size from the meta-analysis is a between-groups Cohen's *d*. This metric is derived from studies that use a randomized controlled trial (RCT) design, where participants are randomly assigned into separate groups, i.e. a treatment group and a control group. Participants in the control group are given a placebo treatment, while participants in the treatment group are given the actual treatment. After the intervention, the effect size is calculated as the standardized mean difference in outcomes between these two groups at a single post-intervention assessment. 
-In contrast, the expert-elicited SESOI represents a within-subject pre-post change,  where a single group of participants is measured both before and after an intervention. The change is calculated as the difference in scores within the same individuals across the two time points. 
+In contrast, the expert-elicited SESOI represents a within-subject pre-post change, where a single group of participants is measured both before and after an intervention. The the effect size is calculated as follows:
 
-[non hanno la stessa metrica, ma una fonte affidabile della stessa metrica?]
+$$
+d_{within} = \frac{\bar{X}_{post} - \bar{X}_{pre}}{SD_{diff}}
+$$
 
-Consequently, imputing a reasonable standard deviation for the SESOI, the two measures do not share the same metric.
+where the standard deviation of the difference scores is: 
 
-Based on the difference just illustrated, a conceptual difference also follows, whereby the between-groups Cohen's *d* reflects a relative difference between treatment and control groups at post-test, whereas the elicited SESOI represents an absolute pre-post improvement within the treatment group.
+$$
+SD_{diff} = \sqrt{SD^2_{pre} + SD^2_{post} - 2r \cdot SD_{pre} \cdot SD_{post}}
+$$
+[@lakens2013calculating; @morris2002combining]
+Assuming equal variances at pre and post, $SD_{pre} = SD_{post} = SD$, the expression simplifies to
 
+$$
+SD_{diff} = SD\sqrt{2(1-r)}.
+$$
+
+Hence, for an expected mean change of Δ = 5 points:
+
+$$
+d_{within}= \frac{\Delta}{SD  \sqrt{2(1 - r)}}
+$$
+
+Empirical studies on the K-10 in university/community samples typically report SD ≈ 7–9 [@andrews2001interpreting; @sunderland2011estimating]. Therefore, we will consider two reasonable scenarios: 
+• *SCENARIO A*: If we assume SD = 8 and r = 0.50:
+
+$$
+SD_{diff} = 8 \cdot \sqrt{2(1 - 0.50)} = 8, \quad d_{within} = \frac{5}{8} = 0.625.
+$$
+
+• *SCENARIO B*: If we assume SD = 9 and r = 0.40:
+
+$$
+SD_{diff} = 9 \cdot \sqrt{2(1 - 0.40)} = 9.86, \quad d_{within} = \frac{5}{9.86} \approx 0.51.
+$$
+
+Thus, the elicited SESOI corresponds to a within-subjects effect size of about *d* within ∈ [0.50, 0.65]
+under realistic assumptions.
 
 \vspace{0.5cm}
 ::: {.subtitle}
-**Solutions**
+**Comparison**
 :::
-To ensure comparability, the ___ was converted to the same metric as ___ , using the formula ___ 
+
+The expert-elicited SESOI is a within-subject measure, while the design we are planning (an RCT) and the evidence from our meta-analysis are based on between-group comparisons, therefore they are not directly comparable. To inform the power analysis for a standard RCT, the within-subject SESOI must be converted into its between-groups equivalent. 
+
+Thus, referring to the previous formula,
+
+$$
+d_{between} = \frac{M_{treat} - M_{control}}{SD_{pooled}}
+$$
+
+If we make the following assumptions: 
+
+1) randomization ensures baseline equivalence, 
+2) the control group shows negligible change over time, 
+3) the post-test SD is approximately equal to the baseline SD,
+
+then the expected post-test difference between groups is just the expected within-person improvement in the treatment group, i.e. Δ = 5, but now expressed on the post-test SD scale.
+
+Because
+
+$$
+SD_{diff} = SD  \sqrt{2(1 - r)} \implies SD = \frac{SD_{diff}}{\sqrt{2(1 - r)}}
+$$
+
+we can substitute this into the between-groups definition and obtain the key conversion [@morris2002combining]:
+
+$$
+d_{between} = d_{within} \cdot \sqrt{2(1 - r)}
+$$
+This makes explicit that the difference between within- and between-subjects effect sizes is entirely
+due to the correlation between pre and post. Following the two scenarios calculated above,
+
+• *SCENARIO A*: If *d* within = 0.625 and r = 0.50:
+
+$$
+d_{between} = 0.625 \times \sqrt{2(1 - 0.50)} = 0.625 \times 1 = 0.625.
+$$
+
+• *SCENARIO B*: If *d* within = 0.51 and r = 0.40:
+
+$$
+d_{between} = 0.51 \times \sqrt{2(1 - 0.40)} = 0.51 \times 1.095 \approx 0.56.
+$$
+
+So, under plausible assumptions for K-10 data, the between-groups effect size corresponding to the
+elicited 5-point change is approximately
+
+$$
+d_{between} \approx 0.55\text{-}0.65
+$$
+
+The obtained result is notably consistent with the meta-analytic estimate *d* = 0.55 reported in the review on digital mental health interventions for university students, thereby informing us that in this scenario the plausible effect size is also clinically relevant, according to our experts elicitation.
+
+Two important considerations follow from this process. First, we must note that this close alignment is a specific feature of our case, dependent on our particular parameters—the 5-point change defined by experts, the typical K-10 standard deviations, and the pre-post correlations we assumed. Had these elements been different, we would have needed to develop a different rationale for choosing our target effect size. Second, we can be more or less conservative in deciding how close the two values need to be to justify their combined use. This threshold is not fixed and involves a deliberate methodological choice.
 
 ## Analysis 
 
+Abbiamo condotto
+- una poweranalysis sotto d.50
+- una poweranalysis sotto d.55
+- una poweranalysis sotto d.60
+
+The R code of the anlaysis is included in Appendix B.
+
 ## Results
+
+Bellissime tabelle e grafici
+
+TITOLO IN NESSUN GRAFICO
+
+Io dico solo come leggere il grafico in un ottica di trade off tra robustness e feasibility
+Inoltre bisogna radooppiare il campione eprché two arms.
 
 ## Discussion
 
-This study faced several methodological challenges inherent to novelty of the expert elicitation procedures. The limitations can be grouped into the following subgroups:
-
-Un po' più teoriche
-
-2) Since we are dealing with constructs that cannot be verified, we could not operate techniques such as performance weighting, as described in the previous chapter, which require questions with known answers to calibrate expert weights. This constraint made the use of equal-weight aggregation inevitable, a methodological compromise widely accepted in similar contexts, despite carrying the risk of diluting the contribution of the more accurate experts.
-
-4) The heterogeneity of outcome measures across meta-analyses limited the comparability between the meta-analytic effect size and the elicited SESOI. A synthesis based on a single instrument would have been preferable, but such standardization remains rare in the literature.
-
-Legate alla nostra elicitazione
-
-1) A key challenge was the inherent circularity in defining the "minimally important change". To anchor this abstract concept, we used a clinical vignette depicting a patient with emerging depressive symptoms, asking experts to envision a slight but meaningful functional improvement. We then asked the experts to quantify that improvement into the expected Kessler-10 score change. While this provided a concrete reference, the procedure remained intrinsically subjective, relying on individual clinicians' interpretations of the central construct, potentially introducing more variability. This underscores the importance of eliciting multiple expert judgments to capture diverse clinical perspectives. 
-
-By eliciting only point estimates rather than uncertainty intervals, this approach does not capture their confidence levels and may reinforce overconfidence bias.
-
-This limitation could be mitigated in future research by employing a formal elicitation protocol, such as the IDEA protocol, which includes dedicated phases for properly introducing and aligning experts' understanding of the target constructs.
-
-Legate all'expertise, che abbiamo capito dopo
-
-2) Since the literature on treatment efficacy mostly reports effect sizes between-groups using Cohen's *d*, a directly comparable approach would be to elicit a score change reflecting improvement relative to a control group. We believe, however, that this method may be conceptually problematic for two reasons. Clinicians lack direct experience with control groups, which could undermine the very expertise elicitation seeks to capture. Furthermore, this framing implicitly assumes that the control group cannot show clinically relevant effects, a significant assumption that must be discussed. While this limits direct comparability, and could be further discussed, our chosen approach prioritizes the ecological validity of the clinical judgment we sought to elicit.
-
-2) Some experts mistook the SESOI with a measure of treatment efficacy. However, the SESOI defines a clinically meaningful score change on the K-10, regardless of how that improvement is achieved (e.g., treatment, spontaneous remission, or placebo effect). This conceptual confusion was evident when experts inquired about the specific treatment, revealing a focus on the source of improvement rather than the score change that defines it. This underscores a current knowledge gap between methodology and practice. As concepts like SESOI become more integrated into clinical training, this barrier will diminish, facilitating future applications of these techniques.
-
-### Closing morale 
-
----> The primary contribution of this thesis lies not in a specific empirical finding, but in the development and illustration of this procedural framework itself. The ultimate aim is to provide a replicable template for enhancing the interpretation and planning of psychological studies.
-
-The challenges we encountered largely reflect the pioneering stage of applying SESOI in a clinical context. With the initial exploration of this methodology along with its obstacles, we hope to offer a preliminary step for future research to develop more refined and effective approaches.
+It is important to acknowledge that this methodological approach has specific limitations, which we will  address in detail in the following chapter.
 
 ### Conclusion
 
 This chapter details the steps of this novel approach, from the elicitation of a practical threshold to its comparison with a literature, based benchmark—and concludes with a practical demonstration of how such an integration can inform research design.
 
-
+In the next and final chapter, we will summarize the main findings of this work, discuss its methodological limitations, and outline possible directions for future research.
