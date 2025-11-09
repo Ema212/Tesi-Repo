@@ -1,4 +1,4 @@
-# Appendix A {.appendix} 
+# {.appendix} 
 
 The following section presents the tailored elicitation script used in this study. As the elicitation was conducted with Italian experts, the communication is presented in its original Italian.
 
@@ -15,35 +15,67 @@ The following section presents the tailored elicitation script used in this stud
 \noindent\textbf{Corpo:} 
 \noindent Gentile [dott./dott.ssa X],
 
+\vspace{0.3cm}
+
 \noindent Grazie per aver aderito a questa raccolta dati. I risultati saranno impiegati per un lavoro di tesi magistrale sulla ricerca metodologica in psicologia clinica.
+
+\vspace{0.3cm}
 
 \noindent Tempo di compilazione: **<5min**
 
+\vspace{0.3cm}
+
 \noindent Il nostro obiettivo è valutare quale variazione del punteggio della scala Kessler-10 indica un minimo miglioramento clinico significativo, ossia un primo reale progresso nel paziente verso una migliore funzionalità.
+
+\vspace{0.3cm}
 
 \noindent Sappiamo che quantificare la sua opinione potrebbe essere difficile, ma in questa fase dello studio è fondamentale basarsi sull’esperienza clinica di professionisti come lei.
 
+\vspace{0.3cm}
+
 \noindent Consideri il seguente caso clinico a scopo esemplificativo.
+
+\vspace{0.3cm}
 
 \noindent Il paziente è uno studente universitario, con una storia familiare di depressione ed episodi di bullismo in età evolutiva. Si è da poco trasferito in una nuova città per iniziare gli studi, ma riscontra difficoltà a livello accademico. Notando che il paziente comincia a manifestare un quadro sintomatologico depressivo gli somministra la Kessler-10. 
 
+\vspace{0.3cm}
+
 \noindent Il paziente viene poi sottoposto a un trattamento. Dopo il trattamento, lei rileva un miglioramento minimo del funzionamento del paziente. 
+
+\vspace{0.3cm}
 
 \noindent Di conseguenza risomministra la Kessler-10. 
 
+\vspace{0.3cm}
+
 \noindent Quale differenza di punteggio complessivo si aspetta tra prima e dopo? 
+
+\vspace{0.3cm}
 
 \noindent Mi aspetto una differenza di [x] punti.
 
+\vspace{0.3cm}
+
 \noindent Qualora avesse dei dubbi, la preghiamo di indicare comunque il valore che ritiene più plausibile. In questa fase dello studio, la sua personale "intuizione clinica" è il dato che siamo interessati a rilevare.
+
+\vspace{0.3cm}
 
 \noindent Le sue risposte saranno usate esclusivamente per scopi di ricerca e verranno condivise solamente in forma aggregata.
 
-\noindent **Le chiediamo cortesemente di rispondere a questa mail entro una settimana (Mercoledì 29 Ottobre).** Riceverà un promemoria il giorno della chiusura.
+\vspace{0.3cm}
+
+\noindent Le chiediamo cortesemente di **rispondere a questa mail entro una settimana (Mercoledì 29 Ottobre).** Riceverà un promemoria il giorno della chiusura.
+
+\vspace{0.3cm}
 
 \noindent Grazie per il suo prezioso contributo.
 
-\noindent Cordiali saluti
+\vspace{0.3cm}
+
+\noindent Cordiali saluti,
+
+\vspace{0.3cm}
 
 \noindent Emanuele Bollini - Laureando magistrale  
 \noindent Gianmarco Altoè - Relatore supervisore

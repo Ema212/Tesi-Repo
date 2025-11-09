@@ -8,9 +8,11 @@ book:
     - chapters/chapter2.qmd
     - chapters/chapter3.qmd
     - chapters/chapter4.qmd
+    - chapters/conclusion.qmd
     - chapters/references.qmd
   appendices: 
     - appendices/appendix-a.qmd
+    - appendices/appendix-b.qmd
 
 bibliography: files/references.bib
 csl: apa.csl
@@ -48,7 +50,7 @@ title-eng: "Pianificazione della numerosità campionaria basata sul giudizio deg
 supervisor-prefix: "Relatore"
 supervisor-name: "Prof. Gianmarco Altoè"
 cosupervisor-prefix: "Correlatori"
-cosupervisor-name: "Perugini Ambra, Sità Laura"
+cosupervisor-name: "Dott.ssa Ambra Perugini"
 student-prefix: "Laureando"
 student-name: "Emanuele Bollini"
 matricola-prefix: "Matricola"

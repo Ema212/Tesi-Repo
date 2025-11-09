@@ -9,17 +9,18 @@ In the previous chapters, we highlighted the conceptual difference between stati
 In this chapter we will move from the theoretical framework to its practical application, as follows. First, we will derive a plausible effect size from the existing literature and a SESOI through a process of expert elicitation, as justified in Chapter 3. We will then outline the methodological and conceptual challenges of comparing these two distinct measures, along with our proposed solution. Subsequently, to ground this methodology in a practical context, we will conduct a power analysis for a preregistered study, informed by the outcomes of these initial steps. Finally, the results from of this applied methodology will be presented and discussed. 
 
 A graphical rapresentation of the methodology is illustrated in figure 4.1, where we match the plausible effect size against the SESOI, to inform hypothesis specification and perform power analysis, as more deeply detailed in chapter 2.
+\vspace{0.5cm}
 
 ![A graphical rapresentation of the whole methodology.](../figures/unificat.png){width=80% fig-align=center}
 
 Before detailing these steps, we will give a brief introduction to preregistration in general, and then contextualize the preregistered study that guides this methodological application. Both the expert elicitation and meta-analysis were specifically shaped for this purpose, serving as a demonstrative application example of how this methodology could inform hypothesis pre-specification. 
 
 ### Preregistration
-We will noe present the principles and challenges of preregistration, providing context for the subsequent case study.
+We will now present the principles and challenges of preregistration, providing context for the subsequent case study.
 
-Preregistration is a tool for enhancing research transparency, by declaring the research hypotheses, methodology, and analysis plan before data collection [@science; @ummul2021easing]. While it helps mitigate phenomena such as HARKing [@wagenmakers2012agenda], its effectiveness can be compromised. A known issue is the selective adherence to preregistrations, where they are cited in the final report only when results are significant, and omitted otherwise.
+Preregistration is a tool for enhancing research transparency, by declaring the research hypotheses, methodology, and analysis plan before data collection [@science; @ummul2021easing]. Therefore, preregistration provides the ideal framework for implementing our methodology, as demanding the pre-specification of a target effect size well suits the reasoning of this thesis. As our approach aims to provide a more rigorous and clinically grounded method for pre-specifing this crucial parameter, it suits well with the preregistration methodology.
 
-A more robust solution is the registered report format. In this alternative publishing model, peer review is conducted before data are collected [@nosek2014registered]. Accepting the study before findings incentives researchers to prioritize meeting  research standards over obtaining satisfying results. Nonetheless, registered reports demand substantial upfront investment in peer review and require strong institutional support, creating practical barriers to their adoption [@ummul2021easing].
+For completeness reasons, it's right to enlight that while it helps mitigate phenomena such as HARKing [@wagenmakers2012agenda], its effectiveness can be compromised. A known issue is the selective adherence to preregistrations, where they are cited in the final report only when results are significant, and omitted otherwise. A more robust solution is the registered report format. In this alternative publishing model, peer review is conducted before data are collected [@nosek2014registered]. Accepting the study before findings incentives researchers to prioritize meeting research standards over obtaining satisfying results. Nonetheless, registered reports demand substantial upfront investment in peer review and require strong institutional support, creating practical barriers to their adoption [@ummul2021easing].
 
 ### The preregistered case study 
 We will now introduce the trial used as a practical example to guide the proposed methodology.
@@ -53,43 +54,28 @@ We will now outline how the survey was constructed, how experts were recruited a
 Since time and resource constraints prevented us from conducting a manualized elicitation, we conducted a tailored elicitation, that could best meet our resources limitation. The elicitation consested of a survey via e-mail, with a one-shot question to answer. The choice of this non-manualized methodology is considered appropriate within the context of a master's thesis, intended for illustrative purposes only, and serves as a substitute for a proper elicitation process.
 The complete elicitation email is reproduced in its original language in Appendix A.
 
-\vspace{0.5cm}
-::: {.subtitle}
-**Survey structure**
-:::
+#### Survey structure {.unnumbered .unlisted}
 The survey was centered around a detailed clinical vignette depicting a university student with emerging depressive symptoms. The vignette was designed to illustrate a scenario where, after an initial treatment, the patient exhibits a minimal, yet meaningful, functional improvement. Neither lenght of the treatment nor type of treatment was detailed. This choice may be discussed, but it's our opinion that given the very definition of SESOI (the smallest effect size of interest) we are not interested in the time needed to obtained a relevant improvement, nor we are interested in how the improvement is obtained (whether it may be due to a certain treatment, or even spontaneous). Conversly, we are only interested in the score difference, given the relevant change.
 
 Following the vignette, the survey presents the pivotal question: "Given such a relevant change, what difference in the total K-10 score would you expect?" (the original and complete versione can be fount in the appendix)
 
 The methodology was inspired by the final two stages of the IDEA protocol (notably, "estimate" and "aggregate" phases), which we detailed in the previous chatper [@hemming2018practical]. In line with the "estimate" phase, experts were asked to provide their best-guess estimates independently and privately, avoiding group dynamics like groupthink, within the one-week frame-time suggested by the protocol. Following the steps of the "aggregate" phase, the final IDEA phase, the collected responses were mathematically aggregated to derive a group estimate.
 
-\vspace{0.5cm}
-::: {.subtitle}
-**Pilot Test**
-:::
+#### Pilot test {.unnumbered .unlisted}
 To refine the clarity and feasibility of the elicitation instrument, a pilot test was conducted. A sample of 6 master's students in clinical psychology was recruited. After being provided with a description of the K-10 scale, they were sent the survey. Their feedback and responses were used to identify ambiguities and ensure clarity.
 
-\vspace{0.5cm}
-::: {.subtitle}
-**Ethical**
-:::
+#### Ethical {.unnumbered .unlisted}
 Since no sensitive data were collected, ethical committee approval was deemed unnecessary. Participants were assured that their individual responses would be presented exclusively in aggregated form.
 
-\vspace{0.5cm}
-::: {.subtitle}
-**Partecipants**
-:::
+#### Partecipants {.unnumbered .unlisted}
 A panel of 8 experts in clinical psychology were recruited. Experts were defined as licensed psychoterapists with over 2 years of clinical experience, who simministrate or used to somministrate the K-10 in their clinical practice. Recruitment occurred by personal invitations, based on a combination of convenience and availability
 
-\vspace{0.5cm}
-::: {.subtitle}
-**Data collection**
-:::
+#### Data collection {.unnumbered .unlisted}
 Upon agreeing to participate in the data collection, participants were sent the questionnaire directly via email, without a preliminary explanatory phase. 
 The survey was distributed via email on Wednesday, 22 October at 09:15 to six of the partecipants, and a second survey was distributed via email on Monday, 27 October at 9:15 to the remaining two (whose mail address took longer to collect.)
 A reminder was sent on the scheduled deadline day (29 October) at 09:15 for the first survey and on the scheduled deadline day (3 November) for the second round. 
 
-**Exclusion and interpretation**
+#### Exclusions and interpretation {.unnumbered .unlisted}
 Out of 8 experts, 3 responses were excluded as missing data for different reasons. One expert requested additional information, deeming the protocol invalid without it. Despite our clarification, the expert failed to provide a quantitative estimate. One expert raised concerns about the clinical relevance of the parameter proposed in the answer, casting doubt on the reliability of this response. One expert, during the response phase, revealed information that confirmed to have been erroneously included in the panel, not meeting the pre-defined expertise criteria.
 
 Out of five accepted responses, two responses have been discussed. 
@@ -97,26 +83,21 @@ One response offered two different estimate under different baseline scenario, p
 
 Following these methodological decisions, the resulting five values were "5, 5, 5, 5, 6".
 
-**Aggregation**
+#### Aggregation {.unnumbered .unlisted}
 Since we are dealing with constructs that cannot be verified, we could not operate techniques such as performance weighting, as described in the previous chapter, which require questions with known answers to calibrate expert weights. This constraint made the use of equal-weight aggregation inevitable, a methodological compromise widely accepted in similar contexts, despite carrying the risk of diluting the contribution of the more accurate experts. Although the choice of aggregation method in such methodologies is often subject to discussion, in this case the mode, median, and mean were all equal to 5. Therefore, we established the value of 5 as the reasonable definitive reference value.
 
 ### Matching SESOI and Plausible effect
 As outlined in chapter 2, our primary objective is to juxtapose the SESOI with the plausible effect size, as this will enable us to conduct a power analysis informed by the comparison of the two indices. A key methodological challenge lies in the inherent difference between the plausible and the SESOI, as these two indices are derived from different study designs. In this section we will illustrate the differences between the two and under which assumption we are able to do the comparison. 
  
-\vspace{0.5cm}
-::: {.subtitle}
-**Metanalysis**
-:::
+#### Metanalysis {.unnumbered .unlisted}
+
 The plausible effect size from the meta-analysis is a between-groups Cohen's *d*. This metric is derived from studies that use a randomized controlled trial (RCT) design, where participants are randomly assigned into separate groups, i.e. a treatment group and a control group. Participants in the control group are given a placebo treatment, while participants in the treatment group are given the actual treatment. After the intervention, the effect size is calculated as follows:
 
 $$
 d_{between} = \frac{M_{treat} - M_{control}}{SD_{pooled}}
 $$
 
-\vspace{0.5cm}
-::: {.subtitle}
-**SESOI**
-:::
+#### SESOI {.unnumbered .unlisted}
 
 In contrast, the expert-elicited SESOI represents a within-subject pre-post change, where a single group of participants is measured both before and after an intervention. The the effect size is calculated as follows:
 
@@ -129,8 +110,7 @@ where the standard deviation of the difference scores is:
 $$
 SD_{diff} = \sqrt{SD^2_{pre} + SD^2_{post} - 2r \cdot SD_{pre} \cdot SD_{post}}
 $$
-[@lakens2013calculating; @morris2002combining]
-Assuming equal variances at pre and post, $SD_{pre} = SD_{post} = SD$, the expression simplifies to
+[@lakens2013calculating; @morris2002combining]. Assuming equal variances at pre and post, $SD_{pre} = SD_{post} = SD$, the expression simplifies to
 
 $$
 SD_{diff} = SD\sqrt{2(1-r)}.
@@ -139,7 +119,7 @@ $$
 Hence, for an expected mean change of Δ = 5 points:
 
 $$
-d_{within}= \frac{\Delta}{SD  \sqrt{2(1 - r)}}
+d_{within}= \frac{\Delta}{SD \sqrt{2(1 - r)}}
 $$
 
 Empirical studies on the K-10 in university/community samples typically report SD ≈ 7–9 [@andrews2001interpreting; @sunderland2011estimating]. Therefore, we will consider two reasonable scenarios: 
@@ -158,10 +138,7 @@ $$
 Thus, the elicited SESOI corresponds to a within-subjects effect size of about *d* within ∈ [0.50, 0.65]
 under realistic assumptions.
 
-\vspace{0.5cm}
-::: {.subtitle}
-**Comparison**
-:::
+#### Comparison {.unnumbered .unlisted}
 
 The expert-elicited SESOI is a within-subject measure, while the design we are planning (an RCT) and the evidence from our meta-analysis are based on between-group comparisons, therefore they are not directly comparable. To inform the power analysis for a standard RCT, the within-subject SESOI must be converted into its between-groups equivalent. 
 
@@ -182,7 +159,7 @@ then the expected post-test difference between groups is just the expected withi
 Because
 
 $$
-SD_{diff} = SD  \sqrt{2(1 - r)} \implies SD = \frac{SD_{diff}}{\sqrt{2(1 - r)}}
+SD_{diff} = SD \sqrt{2(1 - r)} \implies SD = \frac{SD_{diff}}{\sqrt{2(1 - r)}}
 $$
 
 we can substitute this into the between-groups definition and obtain the key conversion [@morris2002combining]:
@@ -218,28 +195,40 @@ Two important considerations follow from this process. First, we must note that 
 
 ## Analysis 
 
-Abbiamo condotto
-- una poweranalysis sotto d.50
-- una poweranalysis sotto d.55
-- una poweranalysis sotto d.60
+We conducted a sensitivity analysis to assess how sample size requirements varied across different effect sizes (d = 0.50, 0.55, 0.60) and statistical power levels (70%, 80%, 90%), using the "pwr" package [@Champely2020] in R [@Rcore2023]. 
 
-The R code of the anlaysis is included in Appendix B.
+The value *d* = 0.55 represents the direct meta-analytic estimate and the lower bound of our converted SESOI, while *d* = 0.60 represents the upper bound of our converted SESOI. We also included *d* = 0.50 as a more conservative scenario to illustrate the impact of a slightly smaller, yet still reasonably acceptable, effect.
+
+The effect size range was selected based on the plausible values derived in the previous section. We chose an alpha level of 0.05 and a two-independent-groups design for all power calculations.
+
+The R code of the analysis is included in Appendix B.
 
 ## Results
 
-Bellissime tabelle e grafici
+We report the sample size requirements from our sensitivity analysis, which systematically examined how participant numbers vary across different statistical scenarios. Table 4.1 displays required participants per group (total sample size in parentheses) for two-independent-groups t-test with α = .05, and shows how sample size increases with higher power levels and decrease with larger effect sizes. Each row shows how sample size changes across power levels for a given effect size, while each column shows how sample size varies across effect sizes for a given power level. Values in parentheses represent the total sample size needed across both groups.
 
-TITOLO IN NESSUN GRAFICO
+| Effect Size | Power 70%   | Power 80%   | Power 90%   |
+|-------------|-------------|-------------|-------------|
+| d = 0.50    | 51 (102)    | 64 (128)    | 86 (172)    |
+| d = 0.55    | 42 (84)     | 53 (106)    | 71 (142)    |
+| d = 0.60    | 36 (72)     | 45 (90)     | 60 (120)    |
 
-Io dico solo come leggere il grafico in un ottica di trade off tra robustness e feasibility
-Inoltre bisogna radooppiare il campione eprché two arms.
+Table: Participants per group across effect sizes and power levels:
 
 ## Discussion
 
-It is important to acknowledge that this methodological approach has specific limitations, which we will  address in detail in the following chapter.
+Our power analysis is grounded in the matching procedure between the SESOI and the plausible effect sizes shown in figure 4.2, following the scenario logic from the previous sectio. This alignment indicates that it's reasonable to think that target effect sizes around _d_ = 0.55 are both empirically supported and clinically meaningful for sample size determination.
+
+![SESOI matched with plauisble effect size.](../figures/mateched_1.png){width=80% fig-align=center}
+
+This sensitivity analysis gives valuable insights for study pre-planning by quantifying the trade-offs between statistical robustness and practical feasibility, as illustrated in figure 4.3. This approach can help researchers make informed and sound decisions by pre-specifying effect size expectations and understanding their implications for sample size requirements.
+
+![Required sample size per group by power and effect size.](../figures/power.png){width=60% fig-align=center}
+
+This approach enables researchers to make informed decisions by pre-specifying effect size expectations and understanding their concrete implications for resource allocation.  It is important to acknowledge that this methodological approach has specific limitations, which we will address in detail in the following chapter.
 
 ### Conclusion
 
-This chapter details the steps of this novel approach, from the elicitation of a practical threshold to its comparison with a literature, based benchmark—and concludes with a practical demonstration of how such an integration can inform research design.
+In this chapter we detailed the steps of this novel approach, translating the theoretical methodological framework into an operational procedure. Through a concrete case study, a power analysis for a preregistered study, we have shown how integrating a measure of practical significance (the SESOI) with one of statistical significance (the plausible effect size) can directly and meaningfully inform research design.
 
-In the next and final chapter, we will summarize the main findings of this work, discuss its methodological limitations, and outline possible directions for future research.
+In the next and final chapter, we will summarize the overarching contribution of this work, discuss its methodological limitations in depth, and propose possible directions for future research to refine.

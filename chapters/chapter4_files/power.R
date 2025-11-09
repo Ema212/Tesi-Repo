@@ -1,0 +1,105 @@
+# START SESSION
+rm(list = ls())                               # Clear all objects from workspace
+
+# POWER ANALYSIS
+
+## Required packages
+library(pwr)                                  # Load the package
+
+
+## Setting parameters for the simulation
+
+ds     = c(0.50, 0.55, 0.60)                       # Multiple effect sizes, where
+                                                      # 0.55 is Choen's d plausible effect size, derived from the metanalysis
+                                                      # 0.50 and 0.60 are two scenarios effect sizes from the reasonable range of sesoi within effect sizes  converted to between metric
+alpha  = 0.05                                      # Significance level  
+powers = c(0.70, 0.80, 0.90)                       # Setting different power scenarios (/70%,80%,90%))
+
+## Power analysis function
+
+calc_n = function(d, power, alpha = 0.05) {        # This function calculates the sample size, given parameters
+  out = pwr.t.test(d = d,                             # effect size
+                    power = power,                    # desired powers 
+                    sig.level = alpha,                # significance levels
+                    type = "two.sample",              # two independent groups
+                    alternative = "two.sided")        # two tailed test
+  ceiling(out$n)                                      # round up to nearest integer
+}
+
+n_per_group = sapply(ds, function(d) {            # For each effect size in ds
+  sapply(powers, function(pw) calc_n(d, pw, alpha))# calculate sample size for ALL power levels
+})
+
+## Show Result 
+results = data.frame(                            # creates a data frame that enlists:
+  d_between    = rep(ds, each = length(powers)),       # Repeats each d for all powers
+  power        = rep(powers, times = length(ds)),      # Repeats powers for each d
+  n_per_group  = c(n_per_group),                       # Flattens the matrix
+  total_sample = c(n_per_group) * 2                    # Total participants (2 groups)
+)
+
+print(results)                                    # shows table of results
+
+# ILLUSTRATIVE GRAPHS
+
+## Required Packages
+library(ggplot2)                                   # Load the package
+
+## Grpahs
+
+# Create empty list to store all combinations
+res_list = list()                                
+
+# Generate all effect size and power combinations
+for (d in ds) {                                   
+  for (pw in powers) {
+    
+    # Calculate required sample size for current combination
+    n_pg <- calc_n(d, pw, alpha)
+    
+    # Store results in data frame and add to list
+    res_list[[length(res_list) + 1]] <- data.frame(
+      d_between = d,          # Current effect size
+      power = pw,             # Current power level 
+      n_per_group = n_pg      # Calculated sample size per group
+    ) 
+  }
+}
+
+# Combine all list elements into single data frame
+df <- do.call(rbind, res_list)
+
+# Creating plot for required sample size per group by power and effect size
+ggplot(df, aes(x = power, y = n_per_group,
+               group = factor(d_between),     # Separate line for each effect size
+               color = factor(d_between))) +  # Different color for each effect size
+  
+  # Plot elements
+  geom_line(linewidth = 1) +                  # Connect points with lines
+  geom_point(size = 2) +                      # Connect points with lines
+  geom_text(aes(label = n_per_group),         # Add sample size labels above points
+            vjust = -0.6, size = 3, show.legend = FALSE) +
+  
+  # Axis formatting
+  scale_x_continuous(breaks = powers,                    # Set x-axis breaks at power levels
+                     labels = paste0(powers*100, "%")) + # Format as percentages
+  
+  # Y-axis limits - set fixed range for consistent appearance
+  scale_y_continuous(limits = c(30, 90)) +               # Fixed range: min = 30, max = 95
+  
+  # Labels and titles
+  labs(
+    title = NULL,                 # (Title and labels were set null for clarity once added to the final document, but left modifiable)
+    x     = NULL,                        # Desired power - Axis
+    y     = NULL,                        # Sample size per group - Axis
+    color = "Effect size (d)"            # Legend title
+  ) +
+  
+  # Theme settings
+  theme_minimal(base_size = 12) +
+  theme(
+    text = element_text(family = "serif"),      # Set all text to Times New Roman
+    legend.text = element_text(size = 15)
+  )
+
+
