@@ -1,6 +1,38 @@
 # Acknowledgements {.unlisted .unnumbered}
 
-Some really fancy acknowledgements here
+I began this work believing the acknowledgements would be a brief formality, but now I find myself in the uncomfortable position of feeling unable to convey my deep gratitude with a couple of paragraphs.
+
+\vspace{0.3cm}
+
+I am sincerely grateful to Professor Cristea for her central role in establishing the foundational conditions for this research.
+
+\vspace{0.3cm}
+
+Also, my most sincere thanks go to those who directly supervised this work. 
+
+\vspace{0.3cm}
+
+To Professor Altoè, 
+for demanding such rigour with such kindness. I have deeply enjoyed learning from your expertise.
+
+\vspace{0.3cm}
+
+To Ambra
+for your reassuring and insightful contributions that made all the difference, from brainstorming phases to refining the details.
+
+\vspace{0.3cm}
+
+To Laura, 
+for your meticulous commitment that went far beyond any formal obligation. 
+
+\vspace{0.3cm}
+
+To Matteo, 
+For your unexpected availability, which was a valuable help for the final stages.
+
+\vspace{0.3cm}
+
+Finally, my gratitude also extends to all the other, indirect supporters of this work, whom I will thank elsewhere.
 
 ```{=latex}
 \clearpage

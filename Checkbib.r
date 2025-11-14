@@ -28,6 +28,11 @@
 
 library(stringr)
 
+#>-----------More---------------<
+#># May be useful to check if all citations are correcctly cited
+library(bibtex)
+read.bib("files/references.bib")
+
 #>------------Funzione -----------<
 
 check_bib_citations <-function(bib_file, qmd_files = NULL, qmd_dir = NULL, strict = TRUE, verbose = TRUE, exclude_false = TRUE) {
